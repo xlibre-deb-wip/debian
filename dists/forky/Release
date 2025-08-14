@@ -1,0 +1,41 @@
+Codename: forky
+Suite: testing
+Architectures: source amd64
+Components: main
+UDebComponents: main
+Origin: XLibre
+Label: xlibre-deb
+Description: XLibre deb repo
+Date: Thu, 14 Aug 2025 20:35:09 +0000
+MD5Sum:
+ f5d0200033035185a94f971b770e5e57              197 Release
+ 0cde13f593c248988093845fc228bf57            34290 main/Contents-amd64
+ b18854bee5939a10faa6f7b1b91b1146             4696 main/Contents-amd64.xz
+ 88c5cebe0f4f7140e6a46081151f0f39            68288 main/binary-amd64/Packages
+ da660c7fdc6422fad963f9cb773e5808            18716 main/binary-amd64/Packages.xz
+ 4ab574a987aab40ed13aab5174a251d2            44799 main/source/Sources
+ 20e824e90a7e6cb0535eb9298e905678            11716 main/source/Sources.xz
+SHA1:
+ f19a1272a337a945d5e399a4aacf20826a8aeca4              197 Release
+ 390c23d2cdfa445eb2b5ca63cc37b8992273a656            34290 main/Contents-amd64
+ f3a55bba7e1a6f5f4cf4907f0786e6043a393e71             4696 main/Contents-amd64.xz
+ 7b7e629d26f20c9c255fe7ade1ce4b2a4cf8075f            68288 main/binary-amd64/Packages
+ 4628f86cbea85126e434c770f5b7fe85759b6466            18716 main/binary-amd64/Packages.xz
+ 71882a1b2896c6cee30c9a1a8c66087fa3fe7bd4            44799 main/source/Sources
+ 11edb6367460dcbf763e557996f071e1c7235c62            11716 main/source/Sources.xz
+SHA256:
+ 251f45805ecb6ca50d565d2a42e3942712b17fd542e9c8dfd23e83caa3410b68              197 Release
+ 5930b851eca70672df2176ad4e28a74ec2a4b6a8073b67050c8171a32fa37bbe            34290 main/Contents-amd64
+ 251c1ca97b21b8b27892457e314cb665cec90706eeb05f6565106ab4e3b5014f             4696 main/Contents-amd64.xz
+ 2cd361fd896c0987a10d08e8dd839ddc724ac36f98284a2f017a2b5cf4f6e71b            68288 main/binary-amd64/Packages
+ adf2f5248635616f7d378d357f450d5f4e412a1f24b27874e569638e4ee6620c            18716 main/binary-amd64/Packages.xz
+ 0c0658aefa759a3e5b6806b8d9de138b8bd127875afa96a31ce5336defe5f5d2            44799 main/source/Sources
+ 9d3d5930fb5dec7e04a76aa764eba27a7ae27f3f222c267a5f9672cc997334da            11716 main/source/Sources.xz
+SHA512:
+ 96bfe280df9aa03a53d38da6cb233ca5037d92be527b393eb788b0f1fdf1a091c339bbd93b0583d83c199aa0186fd6562837ab2f76af7f5d88aef3bdcc111237              197 Release
+ aee5e5e8dcb8f87c7786d4bf9d00eac5aa9867bd965cdcb79e866331e162b1177dd2ae678f73b3f57a36a010ebe31305fa0e116f0188435abafc062a4c0deb72            34290 main/Contents-amd64
+ 300592e8758be5b930026d546abe0ab4404e2cd629973e3306275c4f8504a80af536b728196a1b27f18c00f8cc44e47d647ab6a5c91b3973319b808144a68dbf             4696 main/Contents-amd64.xz
+ 711f24724bc3571f02b75a9bf1ef3f2cb699e91cfd686f4180fce81101879f2302416ad211da65d1ce9c1d5464673c03c8eb6fa097b5c70c2b3089ffb1720ab3            68288 main/binary-amd64/Packages
+ b8c62386b65c32199d779a8a38fd7b1a99a12b4ad2a79e0f81e87728d0dbcebc377104c2d84ea1a6b853d928ea61eaa7da5bc079b197b63cedd994c50a6c7782            18716 main/binary-amd64/Packages.xz
+ e4db6aaa5ab361a4df15efd8ef9043a312918fd971de25c166ae36f222e0cff60cca61670ab6ee3aad1575c0b249328bb673dd39658cf08c7f7b0247e1acb701            44799 main/source/Sources
+ 4c4620a490a50af09b9bc461d10a55c36421d92bf0dbe593173a4688a8755fca5eea1edd759a172304a72f8d2f30f2bd087bb620a8d1eb5ef581a628475d9d00            11716 main/source/Sources.xz

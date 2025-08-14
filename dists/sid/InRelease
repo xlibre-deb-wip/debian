@@ -1,0 +1,51 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: sid
+Suite: unstable
+Architectures: source amd64
+Components: main
+UDebComponents: main
+Origin: XLibre
+Label: xlibre-deb
+Description: XLibre deb repo
+Date: Thu, 14 Aug 2025 20:35:09 +0000
+MD5Sum:
+ 9021d6598d0ac721612c728734d8f35b              196 Release
+ 1357d34092059e3f2612e082376d70d0            34290 main/Contents-amd64
+ 05f7921b2c8a77264fd5a802b721c8a9             4692 main/Contents-amd64.xz
+ 2e07b719dc95498f4b5c70f4e198a7dd            68166 main/binary-amd64/Packages
+ cb4a1762812623a1630c9448ee8d1a7f            18756 main/binary-amd64/Packages.xz
+ a50469dccb563ba215f8c198d408174a            44761 main/source/Sources
+ 9b575798eb94d47180f9f6a3461999c8            11708 main/source/Sources.xz
+SHA1:
+ 7fddc53315ccf7c4cbe400b9f91dcbe895b27dd1              196 Release
+ 7c32fbc5b00e885c3a36eeea02fa69955c2ce646            34290 main/Contents-amd64
+ 5bc2f8ff135bea9ace0570b643c363e56619963d             4692 main/Contents-amd64.xz
+ ebbd2e341908132628ebbc34879e040becc496f2            68166 main/binary-amd64/Packages
+ 5641d0ab56c8d29048bd0a0b442ad999b8b96af6            18756 main/binary-amd64/Packages.xz
+ 9a74a1505ec8ae9eaef9aca59581b9dfddcf4d5b            44761 main/source/Sources
+ 927876fcc13af3cafc29b8bc6607b61cc5a2194e            11708 main/source/Sources.xz
+SHA256:
+ e74b695af302208420ecd7f0d92b1574315964105d5af2804da3625f8700ab00              196 Release
+ ddd0f5bee1a982f8a681e5e3dd421fce83853a3e26c7a6e8d4968ecfc975d009            34290 main/Contents-amd64
+ 73cac31a3fcf2152d90a5ee5c3ca5618a0ff00133ba6224064d26ca77580824f             4692 main/Contents-amd64.xz
+ 03e01ea5cca37d664a5b8c6efc85b5b9ca2f8fd9b9dd34606294bf057aec96fe            68166 main/binary-amd64/Packages
+ 844740719bbbed14f9267d3ae80d92133ec791f0cf9059f2aa25371be458c647            18756 main/binary-amd64/Packages.xz
+ 91f7fbd856e2abf9de3ef57f01cc479a6fb219eaf092d4c776d4e88c619e6c06            44761 main/source/Sources
+ e541e99b4852939c37629f740ff6dcea169de116f2f928f05eb7f57686779037            11708 main/source/Sources.xz
+SHA512:
+ 2c032a81036ffd3de4d61a5e293e7df07b64834d02efb40e6e9425babb98fdf329ff69b65f7d2f80464d340a74d9b7e8f2f24a6ad82cc1d1bd88437a4c961f42              196 Release
+ 7a3dfe72c3acbb080fc6f925aa6fa196d5d4046b0de9ca8b7f02977a846882a3af05f0674252962b4acfac1b76532af286c950f7fecabe93456b5fe0fd4d47d6            34290 main/Contents-amd64
+ 755f3f5dd62218b26e7e179f8cc27e100c82d5ca1d9f80261b36e47f1548752867df0b1d473015df3b2dd5b0e8efea1b87223edaf67bd74c6eb3949f04df64a3             4692 main/Contents-amd64.xz
+ 9e0bda754aaadaaa4a5a09408abbb318608065db8f69f6d381d64c77eb18c10a2bc7791b6f724bf1f0f2fe18d2231aaa1778e993b2c1e3711465692354065227            68166 main/binary-amd64/Packages
+ a0e7e4f0155f726732505e9ce2a8a501df9719f75312554dadc7bb292dab7e90cc162cf1a868d798e69a52bf3e2e513356393703c13e62a9603501e398cdd30a            18756 main/binary-amd64/Packages.xz
+ a757308d84e6a1b28f702e7c3bf5c376244720fdd254c89c29ebeacfc0501b19edaf6d9a4570bfdcfe77a40c6eb674c354f5639b4c8323c6f52be983336bcacc            44761 main/source/Sources
+ 40e177b8434bc1dad81d7541416e44a3a761ab20d812b75f8e84120d3c5e381773571c5e94d2f8bbc092853e999a9315d16dc85437b2dc9558c5f61aa9f1cde3            11708 main/source/Sources.xz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQT6OrTRJ3AD5pKytnprDTXiiDLWVwUCaJ5IfQAKCRBrDTXiiDLW
+V7/yAQDr2ESwPnJAJGFSi1PwRmuPNpvUg6lTcrz2g3HYmUsJ4QEAySTm8m3K+1Sg
+xawwABIQrOu1HNUtcjeTax4eX88tqw4=
+=Ho+2
+-----END PGP SIGNATURE-----
