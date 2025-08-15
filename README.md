@@ -1,4 +1,4 @@
-# XLibre repository for Debian
+# Debian Repository for XLibre
 
 ```sh
 sudo apt-get update
