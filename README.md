@@ -2,7 +2,7 @@
 
 ```sh
 sudo apt-get update
-sudo apt-get install ca-certificates curl
+sudo apt-get install -y ca-certificates curl
 
 sudo install -m 0755 -d /etc/apt/keyrings
 curl -fsSL https://xlibre-deb.github.io/key.asc | sudo tee /etc/apt/keyrings/xlibre-deb.asc
@@ -18,5 +18,5 @@ Signed-By: /etc/apt/keyrings/xlibre-deb.asc
 EOF
 
 sudo apt-get update
-sudo apt-get install -y xlibre
+sudo apt-get install xlibre
 ```

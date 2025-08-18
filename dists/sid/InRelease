@@ -9,9 +9,9 @@ UDebComponents: main
 Origin: XLibre
 Label: xlibre-deb
 Description: XLibre deb repo
-Date: Sat, 16 Aug 2025 02:44:23 +0000
+Date: Mon, 18 Aug 2025 08:47:14 +0000
 MD5Sum:
- 4ceb497c18b31c59592a0aaa3e3446cc              202 Release
+ dd4fea1cda65ba08b93e157a4229c9cf              202 Release
  1357d34092059e3f2612e082376d70d0            34290 main/Contents-amd64
  05f7921b2c8a77264fd5a802b721c8a9             4692 main/Contents-amd64.xz
  f9d1f0b6d95f2e2f9d005b7e324119da            29159 main/Contents-arm64
@@ -23,7 +23,7 @@ MD5Sum:
  e2d022ab796e9e124060f1b70817e837            44761 main/source/Sources
  c84fd64124756f9bf5b66cf3dbb94c21            11704 main/source/Sources.xz
 SHA1:
- df83b069e7a0600c0f4354e996ee50d5601313f1              202 Release
+ 2755a3ebc34952ee9030a7e3bba982ef1b57b95a              202 Release
  7c32fbc5b00e885c3a36eeea02fa69955c2ce646            34290 main/Contents-amd64
  5bc2f8ff135bea9ace0570b643c363e56619963d             4692 main/Contents-amd64.xz
  a83768d0dc7357a0f9e17c0603710b867542ca5d            29159 main/Contents-arm64
@@ -35,7 +35,7 @@ SHA1:
  5b4f4ffc154c92b8187c150b7c5c2ddcbc663b0d            44761 main/source/Sources
  f3009e32a7513f6aedd72d7e6eb7fe3fff0f4b7e            11704 main/source/Sources.xz
 SHA256:
- 2ef8ac8a9a10e14da1941e5f00e6adb6d575a1ebe3c86fd3b9e280947a8696df              202 Release
+ 6eec44e90451ac4f8a0b99e4fdfcde97286c5141df38868c530971302eeaedff              202 Release
  ddd0f5bee1a982f8a681e5e3dd421fce83853a3e26c7a6e8d4968ecfc975d009            34290 main/Contents-amd64
  73cac31a3fcf2152d90a5ee5c3ca5618a0ff00133ba6224064d26ca77580824f             4692 main/Contents-amd64.xz
  e55f55e3d96a6238030ade84781800b71ccd6c01bf4baf91a45ccbe2b2e07644            29159 main/Contents-arm64
@@ -47,7 +47,7 @@ SHA256:
  9ac9abeb53dbdf7a8216b793a2bd83ebc8829c809adf4375463a62ccfbffd7b4            44761 main/source/Sources
  603f91c206db19f16f0715861d3e4a949a20122786356bb7b352aa78edba4a41            11704 main/source/Sources.xz
 SHA512:
- f05247d78064a7e6b4f21ed630f60b2853f99aa95ef7bc74ffbbc2f0aa95d151672f79113ac1a2b90f2558b907af851262ba8c03b17b97c9f33f960fdffe55d1              202 Release
+ eee887e0bb16c11ceb076a7dfd4fe007c0facd2346c189d7f7ced1829f9f8dcc8faed45a5c409f1c49624235b8f54b1cbe55ca4e619478373c3b0fd4ca8e2005              202 Release
  7a3dfe72c3acbb080fc6f925aa6fa196d5d4046b0de9ca8b7f02977a846882a3af05f0674252962b4acfac1b76532af286c950f7fecabe93456b5fe0fd4d47d6            34290 main/Contents-amd64
  755f3f5dd62218b26e7e179f8cc27e100c82d5ca1d9f80261b36e47f1548752867df0b1d473015df3b2dd5b0e8efea1b87223edaf67bd74c6eb3949f04df64a3             4692 main/Contents-amd64.xz
  31623d728153bf8e3de8a797e92388ea1ab5804aebc5fb42034e5a4896787d0acf1062abc1031d041e29959177e8ead25965a5451ffb7c850cafd154961df470            29159 main/Contents-arm64
@@ -60,8 +60,8 @@ SHA512:
  9544e12ad9b13ef2bcbbb8efef304c74a3d65d140ca2dc3cf59671937ac7d6f3ab0d276a539e15efc9cab6ac6804c27faead5a7bc0ffdd58abf9a723d72c6623            11704 main/source/Sources.xz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQT6OrTRJ3AD5pKytnprDTXiiDLWVwUCaJ/whwAKCRBrDTXiiDLW
-V+cQAQCRvAz4nTRasrS0OMGDTUtp41mLleTyNK3YHYNmOMUG+QEAnlJknBelNJeM
-6VRrwnWG488xBtA0V2RP13d6lIJ9Yws=
-=lz4s
+iHUEARYKAB0WIQT6OrTRJ3AD5pKytnprDTXiiDLWVwUCaKLokgAKCRBrDTXiiDLW
+V04SAQDAfEzdEfGGzBFz0sYNiKqFaPQItWryqIMW7KooHK6KXQD+IkL8RA+8zseV
+nsnSRo9UYAQbq8RHObyFJ48wKMQO9AE=
+=ifNT
 -----END PGP SIGNATURE-----
