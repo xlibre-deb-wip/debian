@@ -21,10 +21,29 @@ sudo apt-get update
 sudo apt-get install xlibre
 ```
 
+## For Debian 12 (bookworm) users
+
+You may need to install `libdrm*` packages from Debian `bookworm-backports` repository.
+
+```sh
+cat <<EOF | sudo tee /etc/apt/sources.list.d/debian-backports.sources
+Types: deb deb-src
+URIs: http://deb.debian.org/debian
+Suites: bookworm-backports
+Components: main
+Enabled: yes
+Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+EOF
+
+sudo apt-get update
+sudo apt-get install -y -t bookworm-backports 'libdrm*'
+```
+
 ## Support Status
 
-| Release         | Status           | Arch         |
-|-----------------|------------------|--------------|
-| trixie (stable) | ✅               | amd64, arm64 |
-| forky (testing) | ✅               | amd64, arm64 |
-| sid (unstable)  | Alias of testing |              |
+| Release              | Status           | Arch         |
+|----------------------|------------------|--------------|
+| bookworm (oldstable) | ✅               | amd64, arm64 |
+| trixie (stable)      | ✅               | amd64, arm64 |
+| forky (testing)      | ✅               | amd64, arm64 |
+| sid (unstable)       | Alias of testing |              |
