@@ -1,3 +1,353 @@
+Package: x11proto-core-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-core-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 698876725a9e6c573c32e281740309dc
+SHA1: 504f6e478054ca2fcb6506f306466b9d840428b0
+SHA256: bcd99b83ff33b414df80c4b91abd3c669421f0c5af88d18703fa09857136fe26
+SHA512: b46f83ad7e9079b6f36055a525b6684e1b96220edd6a164e280ab7ec856d192045eff7c297f3fda5d8ab102c1070bd1e022980b8417dcae7b494f9aa885279fa
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1697
+Provides: x11proto-core-dev (= 2024.1-1~bpo+1), x11proto-dri2-dev (= 2024.1-1~bpo+1), x11proto-fonts-dev (= 2024.1-1~bpo+1), x11proto-gl-dev (= 2024.1-1~bpo+1), x11proto-input-dev (= 2024.1-1~bpo+1), x11proto-kb-dev (= 2024.1-1~bpo+1), x11proto-present-dev (= 2024.1-1~bpo+1), x11proto-randr-dev (= 2024.1-1~bpo+1), x11proto-record-dev (= 2024.1-1~bpo+1), x11proto-render-dev (= 2024.1-1~bpo+1), x11proto-scrnsaver-dev (= 2024.1-1~bpo+1), x11proto-video-dev (= 2024.1-1~bpo+1), x11proto-xext-dev (= 2024.1-1~bpo+1), x11proto-xf86dga-dev (= 2024.1-1~bpo+1), x11proto-xf86dri-dev (= 2024.1-1~bpo+1), x11proto-xf86vidmode-dev (= 2024.1-1~bpo+1), x11proto-xinerama-dev (= 2024.1-1~bpo+1)
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Filename: dists/trixie/pool/main/amd64/x11proto-dev_2024.1-1~bpo+1_all.deb
+Size: 593132
+MD5sum: 0d8e2c5b50e8b97b336cc1511f69b35f
+SHA1: 5d9c119278075433ec25ebc53273c07b5489942e
+SHA256: 0c8026ba712c6a11d2d54df14104f7201c8604bffc0996fad5be24d7723a205d
+SHA512: 19bcae59ca3ec6943034916fb76b2a6820f08498a913b7608565c46f261d8c9747b882c4adc16865ae3e4d8c9ca53286e5e17276c63eb2acbbc985ef34a65f57
+Homepage: https://www.x.org/
+Description: X11 extension protocols and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the X11 core and extension protocols, and also provides a number of
+ utility headers, used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This package is built from the X.org xorgproto module.
+
+Package: x11proto-dri2-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 31c4b062c316d3a8efd5d38458a8a00a
+SHA1: a2aaeedf38ebf1a191b108a019f79fd2c70d9497
+SHA256: 210c31a1b63e5c45771be23f6d5395029f8f522b14f72dd08f80590cf96d2a6c
+SHA512: 5fc8d329be40ecfba6a65f21acfa5a0d45e81e97d6db4eec783e1c878ab0ca3ddc10972465932611e359aeb6d1b33cc4106689b7e2103719393af00de4c449fa
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fonts-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 41cdaec7ebca1065b0658436aab16820
+SHA1: e2cfe80a625c2aae531a1cb9f1bf6a548bc6888e
+SHA256: 199cd02c1c4d940f8b65c27fafd35bb1acd7c3a9713c978dca2fb337787387d7
+SHA512: 970011479dcd0807edec3718b1ea5dfd92914a7043683a0b0a9109a41aabeb21ac115e497b60ac6f7db8ff30cb936d576736f22bfc8abeb658a10afa4656e7a4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-gl-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: f3886718c6e96cd7eee458c1026f4b9c
+SHA1: 21eb0723e291768649c40da5f1335d720f250dd0
+SHA256: 60edab57118d409005bc55d97560f5d0f6a9b23f4e0291a98661aa3d316469bc
+SHA512: 37d2b372250c0601e9009bd1d98682f34f230ffe4d1cdd154ffc72d2c388dc4c426889d3e7c632d2a7b031467cea94d75d183baf06fa948f21818ce7d8fae089
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-input-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-input-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: e6df5024cc13ddf58cabc0461a7077a7
+SHA1: b49f58d8f007b885460648337a5c9d26d4db2219
+SHA256: 2eb68ca602be80b977ebdd343cd77ce59ae9aa470c659ab13baa2e47e147e0f8
+SHA512: 4cf57465e10de277022ac951be3c06e1a9fa646362ec9ef3bf17c19511f60e97aa99bb34679005d5e6f8ad7f598d97b8d0dc41a2d2f4677ab6a68a2091c4cc74
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-kb-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 527dca51337ab3afd597eba2d1dced3d
+SHA1: a8f14b979b37935116c3e530c556d49ea5886c1d
+SHA256: 8a7eeab9706d5889a99822bf84d04ba3a64516cd71c3f2396f5b49caa996d091
+SHA512: e3ba1bfc47c671a6d6b4bf17d919e0e1a40e50f64849d641dad816cb26427622e14ca508470530496eb84d6ec30821daf14dae6ba34e66d4192bbb71ed3c54d1
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-present-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-present-dev_2024.1-1~bpo+1_all.deb
+Size: 3488
+MD5sum: 298f11be929d4b86d932d938c40198aa
+SHA1: 94ad5adc8d14391ed730ce4a9bce48df9ca5e59a
+SHA256: 6d3577b7a6131c20d3300fd28a4144da89af15efc013fb05f28caa54568491ff
+SHA512: afe3e6de2fff75dd5a8b1b9268acea589a637cdaaae96a5036b81943d5d4495852ef96884051b97d296c0e507319db41fd5a066884938b46d421f6b82f9b99b6
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-randr-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
+Size: 3488
+MD5sum: 39077b7f50a86917657bd099527f52db
+SHA1: 656f78693f96b0995ae1347e75b8d1ff00ce4509
+SHA256: ad124eb4f77db9a26aae4e3f05f71a7ad1be862e0ed99e22635833370a519924
+SHA512: 305bba040737e188bdc2746163a97fcfc14bfe8b80843d88377bb148ea4140f0fa01a25cd913fdc2d154b9e651ae3128fde62642ce34b455a909fd672f08409d
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-record-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-record-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: 5f349899d9fa7031006a4130aba42fd1
+SHA1: bbacffd00219a480a54cc23372775c76661c7af6
+SHA256: 31785aa5c57c1cd3028ef6aecc6bd5c404a5c0314c4bfc9403909114ced02261
+SHA512: f35ee755da9213c9f912233659d62310c1d3f215cf40e54a34e40d5abac2ebceba84180b12f1e2d2d67c1ee93df1b054e06ac8f09f6915b278cd75f30fec7de4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-render-dev
+Architecture: all
+Version: 2:2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto (2024.1-1~bpo+1)
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-render-dev_2024.1-1~bpo+1_all.deb
+Size: 3496
+MD5sum: baa4aade80991c85f04eaccc9c371607
+SHA1: 94d8ed0c01e9df609e84a260476e26f45c4f9995
+SHA256: 5d9ba96f447f75c8473910f40fef027207cf19d8215fe04f99eb0c1d15157e61
+SHA512: fc28b6c3c17bf24f076b166a2b8268f4ec36351a1b84b0c2723d6232221acb519ae104127dbae646979c6934f1b2742d41dffbc5ea154a08fdf4d1a90ddcc839
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-scrnsaver-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: 9ee25fab155641c551f15b564a1dcd5b
+SHA1: a2203391e9b0efecb5c995678e0c2c16e2b2c0d1
+SHA256: 48315ef19e86afc617d1625dbb82359626a9eb8e219485948088ce08f53570bf
+SHA512: 923e88b7f02ccdbb27fa5291230995392d5477942978dbac5a913f82b767cf13705ac85fd39134f4321a73be20cc7d77d228d3c28004bf94f02ad3c191965972
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-video-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-video-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: fe98cfa79e62f693aaf74ea342855441
+SHA1: 2f9b1d64bae3f0e6583d8346dd979812fd5d7111
+SHA256: 7c829b8052771400a06a10915585f14a6500a9660978caffea90d5351c58834a
+SHA512: b2bfe2f33f21b04d443ae695fc221404980d8217fa5a20aab77332782bb4e5e9672589cd1fe21285bcd412051194cb5f16304f2e429344c63fe742015f26cb22
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xext-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
+Size: 3476
+MD5sum: 0e91f58ec4be57c36a936943692d9cf5
+SHA1: 66682006a51c4575c0147e786333807782a13daa
+SHA256: 2b8e0feda240f75f8a9e3f3461bb49f20aef59cb2d65b41be1fa6c7ae7aabd2d
+SHA512: 4e78794115b3799292424012667699408008b9d53dd050c5cca25020f7d675d4f48bdb4c23ce38c327121b00775b3ac8ab19b4476fa6951c11c4cc65da273c3f
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dri-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: 985884bc715a3efea5ed7651fe030079
+SHA1: 9610f3fece4a55966739711458a0cf86c478feae
+SHA256: a1e5bc2baf4363af10aeaea756dc81921a30d93f5e93b8aae82f8f66c5b9b783
+SHA512: 3ff9508a06d35b776f65156a94f5a6858617a8bf2f15dd3ea93909a5385832f9bba3a86481a9f9c1381c5db557ce70b8d9537a5127a86d5f05b044a5752d92a5
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86vidmode-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
+Size: 3496
+MD5sum: 6fd247b20ce324c74f0875de89a7505e
+SHA1: 7ff31367fd1f8938babfcf4c1f10b6a32aba892b
+SHA256: 3b65bb739a51eb7efa3dac61b591a09004530d918bc6696b49c61b0ae72a51e4
+SHA512: d7ab6d5dd2ae5a09da6061a717edd9212ccfad11364bb776ae8ff8ace39907e4decf71e9c0cac91239d27a5c9d22f0db1182546814e29a6734672acb5eac597d
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xinerama-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/amd64/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: 9f564a7abc03db83743eb4db9f19acce
+SHA1: 0dcd0e5531a88c205bca5c03fdbe5f3b84c0de09
+SHA256: a1b5fbc142807af995444cfa3ca4567ded977518992019485f660abefdf5804a
+SHA512: 27e16c987c976be901d50955227e5f21c1106458dfdbed501ce51024733ccc3ff28522a93b9cf42fd6f661b9b018f94821b21bd4dc4e2ed1d751fb205fb53bb7
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: xlibre-dev
 Architecture: all
 Version: 1:7.8+1
@@ -99,6 +449,33 @@ MD5sum: 4c1858c6a8eea27a4f0b9ae2691b5ef2
 SHA1: fde77e7c9b44858dd994f5d869b66a05cd362d08
 SHA256: b6c062b84dcc83d00956e530d21d442745fea8ec0ca5afe718cc73f68fefc5c5
 SHA512: 6fc8a04cd6e89bd258f390450ba736c25cf8ba37d272aa3045d02e19921833d018761ed418d0b663ae23b16d3f9eb426301f5cbc5690a21803560ac54f7ade17
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2934
+Provides: xorg-server-source (= 2:25.0.0.8-3)
+Conflicts: xorg-server-source
+Filename: dists/trixie/pool/main/amd64/xlibre-server-source_25.0.0.8-3_all.deb
+Size: 2912200
+MD5sum: 828f25c8e3d8098513729f88ee2cf791
+SHA1: b35f6b5e2939fa97985ecd72bfee075360d46041
+SHA256: a07ea2cecbb23611f3d507deda1b3c0a03376abcf1b6f0018b03dbb3fb19b3ce
+SHA512: 7c81fc672b163343e64a3bd300ea44871ecd6e3b279c5bcd4f97faaed8f40de314a52b379a54e7e2a0703bc7a58eee2c73c51893c4c24bc5a7bc810cb440f31e
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - source files
  This package provides original Debian (with Debian patches already
@@ -306,6 +683,30 @@ Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
 
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.8-3)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-common_25.0.0.8-3_all.deb
+Size: 25004
+MD5sum: 26839d594d59230a21966ba31240a9ec
+SHA1: 747675103288cd6d6576324a9e492ffba7dace10
+SHA256: 8e68b5e046b2b4fea680311d40917319099daedf6cdb74225f356dbbd05a77fd
+SHA512: 10facbf9e64c300fc346bfcaccd75d1b1b55f44e870b9e0be3a818b9b4f837a202a1cd10ae72a1193e9c8c2b3ef2c034c14c45ffd230c786fff2b28665e75bac
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
 Package: xserver-xlibre-core-dbgsym
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -341,6 +742,25 @@ MD5sum: 2c21582798fafa411027b9ebfaef21a5
 SHA1: 0acf4c10ff62fcabea60db0fc2b16515b665a1ec
 SHA256: 77d6bb38f4b4aa6e458db89fdd522bf68c03f674d0951b4fd495757e74704fef
 SHA512: bce1c2f6116c6bb06654dbfcd8f6c6560f9551f5d1ad6ae8dcb44eae285a1c94e2a798c8cd37c25f81dc7b01db828e5426876c3cdb870c61a74330d57f0b6f35
+Description: debug symbols for xserver-xlibre-core
+Build-Ids: 0d12abe37f2888eb278edddf853ad47fe72ba5cd 2c24eff25698016789ee9b83ad8570c93d63331d 2fa69eae90f02e4a9b14b92cbb5274f39fe34edc 3fdf176497abd971642c15a620b89c6913d046cf 6d22d1683eb34ea85b4c2f246ae6687a3b4fe813 9df8e0644797f6edc2cf38f673000628ba0ee851 a630baabdcbdb889f876634280a56696bab979ce c0c5b74dd5b9605f5566df6b8184c3220732029f e90bc223f94ff61268d8b839e869cc6459a3e688 f306c4a2ebb67a6223592265a71f149366d46fe9 fa7336ff9482e5981aaee613b22d5b84fc35d803 fa9c612546dd17e433f451ac35eb3688b1123ba0 fd3b83baf79355e4f4d982e268a7b293cad3cc48
+
+Package: xserver-xlibre-core-dbgsym
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 7286
+Depends: xserver-xlibre-core (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-core-dbgsym_25.0.0.8-3_amd64.deb
+Size: 6303448
+MD5sum: 96ce256ae85dd5199f0d1e2174cc05d5
+SHA1: c08cd327d9c195e00de6d9a3c9186ec0efc63656
+SHA256: f531fab7e9273bfbd7eaa626f36ef17182ab09d284fb221e51656fd37b7b323b
+SHA512: 24bd1f61bccfa8430c26ea1a3ad93ff5786dfb5095ca8cf24d190bd89dd63f607324afb61eec22808e10035b9d30685e57a8c5a79e7a738dac28afc4837bd8f3
 Description: debug symbols for xserver-xlibre-core
 Build-Ids: 0d12abe37f2888eb278edddf853ad47fe72ba5cd 2c24eff25698016789ee9b83ad8570c93d63331d 2fa69eae90f02e4a9b14b92cbb5274f39fe34edc 3fdf176497abd971642c15a620b89c6913d046cf 6d22d1683eb34ea85b4c2f246ae6687a3b4fe813 9df8e0644797f6edc2cf38f673000628ba0ee851 a630baabdcbdb889f876634280a56696bab979ce c0c5b74dd5b9605f5566df6b8184c3220732029f e90bc223f94ff61268d8b839e869cc6459a3e688 f306c4a2ebb67a6223592265a71f149366d46fe9 fa7336ff9482e5981aaee613b22d5b84fc35d803 fa9c612546dd17e433f451ac35eb3688b1123ba0 fd3b83baf79355e4f4d982e268a7b293cad3cc48
 
@@ -412,6 +832,40 @@ Description: XLibre X server - core server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-core
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4180
+Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-core_25.0.0.8-3_amd64.deb
+Size: 1422300
+MD5sum: 1601d98f0d9e02a6ee6fbe42a7644c84
+SHA1: e4914e900b60b5a9f6f2ea6d383a25cba42029fa
+SHA256: 3c6ce96563333d34624dededd70b42d693e5026b662f4e4285be6af75c14d166
+SHA512: 2be5a8299e34cead9eb7375f72403220321d2d1a5b9765920145eecacc94839d56269474d4e6318ea0d9879c6d761440b6548f47fe5fa662118ae72981bbd96f
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - core server
+ The XLibre X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The XLibre server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-dev
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -462,6 +916,39 @@ MD5sum: 41fcdff432580acd79dfeb2cf0907d95
 SHA1: 00fbf4760c802cda4217eea634f1d43d2493a9c5
 SHA256: 5ca974ada5afe8828e47e08be67cbbfe8091c444efebea55f46b254d377aa462
 SHA512: 6b0cbf9ccd5d51ac40d19f82d48691e4bbef004f78873f254cbe040fc458fa1041174ce63c7ec328b7316d04c8e6b6576fa712ab4033e6ab473571924e1c609b
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - development files
+ This package provides development files for the XLibre ('XLibre') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xlibre and/or xserver-xlibre-core instead.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-dev
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1102
+Provides: xserver-xorg-dev (= 2:25.0.0.8-3)
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Conflicts: xserver-xorg-dev
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-dev_25.0.0.8-3_amd64.deb
+Size: 164560
+MD5sum: 6c8098388885179586e9f68f5947b61f
+SHA1: 1dde35db79f7034a19cc95c92993a58bc2f75153
+SHA256: 37e12e157439148b3aaa63ef60a0023de6ad51e8bcd78e6ac7219bbc3a7f302d
+SHA512: d7704b0c954e9a117f7564114860158f9cf72697a765c6f9fbfb2332011ba98b69980abebe4cbce410376c212ad579df2f658920c4b3b53d4b482ce5b1fe357f
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - development files
  This package provides development files for the XLibre ('XLibre') X server.
@@ -792,6 +1279,25 @@ SHA512: 452bde5fed2d7852a91feb3b8d74ba4a12cc1cee35f5f567822c668a9dc94aae9dca0571
 Description: debug symbols for xserver-xlibre-input-libinput
 Build-Ids: e4eabad9f1d45dbebd30e24df5a9aa4f5c0eea10
 
+Package: xserver-xlibre-input-libinput-dbgsym
+Architecture: amd64
+Version: 1.5.0.1-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 151
+Depends: xserver-xlibre-input-libinput (= 1.5.0.1-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-input-libinput-dbgsym_1.5.0.1-3_amd64.deb
+Size: 122244
+MD5sum: 1fca1aae24241d917119f703fc6272e2
+SHA1: 159729368d059960f7edc18110e7a1e5249d6462
+SHA256: d789f3867d17208cf7b3a34a2b718d2eec29b306643ee1f6919a33d0b3a89a09
+SHA512: 79cac993149c324ca5bd75837c5a61c5c0199efb6806f9f03ca15ce194f2dfc604cd92f0cc80560f54e4bdaaa51aef5574ab780bea20bdbc7dc29349238a42ef
+Description: debug symbols for xserver-xlibre-input-libinput
+Build-Ids: 73bb9c94f74f270e21b06d9946b9b9287b37c263
+
 Package: xserver-xlibre-input-libinput-dev
 Architecture: all
 Version: 1.5.0.1-1
@@ -842,6 +1348,31 @@ Description: XLibre X server -- libinput input driver (development headers)
  .
  This package is built from the XLibre xf86-input-libinput driver module.
 
+Package: xserver-xlibre-input-libinput-dev
+Architecture: all
+Version: 1.5.0.1-3
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 26
+Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-3)
+Conflicts: xserver-xorg-input-libinput-dev
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
+Size: 5116
+MD5sum: aae6439798660ae7345ca9ca91fa9def
+SHA1: db9dab9a7d9ddd64a95edf9720fc9372a61fc647
+SHA256: f16382a456990c23a4f8d5255bdffe07afd323d95e61bcdcc44fd4771d8d3624
+SHA512: 30d588e531cf85ee2889fd209eeb5461b7ce529ccae7a9c60d9a7ef2046b1c9f4668dcc7323b1b27717335456a062374a3422936cd10c2c8c382b4a8e25e9d5c
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xlibre-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
 Package: xserver-xlibre-input-libinput
 Architecture: amd64
 Version: 1.5.0.1-1
@@ -882,6 +1413,30 @@ MD5sum: 93fdf04a93c21431a58e378cd40ca3cf
 SHA1: 6031f7b57fea39e91f88deefef2f76039f15401c
 SHA256: 909436628093ec46d5b251e48133c36f0be09f18e71a6274f20c16755e590a9f
 SHA512: fcc67d0a81ee42a422dbe1718ff2939c46ddd84b6829d12d0f2e107bdcaf66044a72aa6bc8e9173babe37ab82fb1a2079d480c991ea6611cc9635fad446d439e
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver
+ This package provides the driver for input devices using libinput library.
+ It can handle keyboards, mice and touchpads, and essentially replaces the
+ separate -evdev and -synaptics drivers.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
+Package: xserver-xlibre-input-libinput
+Architecture: amd64
+Version: 1.5.0.1-3
+Priority: optional
+Section: x11
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 123
+Provides: xlibre-driver-input, xserver-xorg-input-libinput (= 1.5.0.1-3)
+Depends: libc6 (>= 2.7), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
+Conflicts: xserver-xorg-input-libinput
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-input-libinput_1.5.0.1-3_amd64.deb
+Size: 40220
+MD5sum: 9217be44345fd4840141fedf37050c07
+SHA1: 9892c53974957fa9919ccdb6d3eeb3eb23423a8d
+SHA256: c35ff26ee3f65fc08ee83ac1c8df9e154819773b04140225856a8fc2f2faec99
+SHA512: 468408fe4ca07595d94a3e4fe8b4cf243668b54a1df024fc9d0289954f788444b9f4aa7a502621f39ed0ca124bd20a7fdc519e93f7c460ff6585cd641156e123
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- libinput input driver
  This package provides the driver for input devices using libinput library.
@@ -1370,6 +1925,25 @@ SHA512: aa5dd79061e0093d83be03414c4830aa564c90b2634a27fd2f8bf36b004c8f3ae2ffbfdb
 Description: debug symbols for xserver-xlibre-legacy
 Build-Ids: c88d0f5fa171915747e309db0d4627121ee9dccc
 
+Package: xserver-xlibre-legacy-dbgsym
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 27
+Depends: xserver-xlibre-legacy (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-legacy-dbgsym_25.0.0.8-3_amd64.deb
+Size: 9120
+MD5sum: 2b07b7aacfac7c9220ce30b09158334a
+SHA1: 8462e80bfc7eb57c4106784cbf29566aeb802f42
+SHA256: 9db9d5874e40ef377308563fca6b5a6875ebbcc306036450883d9c29faacb120
+SHA512: bd516cce22e200d8cc97e5e006da56b712bf373c11cdb838e611bba8f15c96bb2468be457b0905b00924ebd7a309b6f0bc19a66537d8bdd988446976d95bbe1d
+Description: debug symbols for xserver-xlibre-legacy
+Build-Ids: c88d0f5fa171915747e309db0d4627121ee9dccc
+
 Package: xserver-xlibre-legacy
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -1413,6 +1987,30 @@ MD5sum: 96d6e06a1c214557a617124cf9231df6
 SHA1: b72b187d90953ac0f0cb6bc324e2f1e9c2970ea9
 SHA256: 8c9853b480e4ade8c9037f73f39c716e2565858aee2eec43137b6fc5a2f615a0
 SHA512: 7596a355e4ba0887ef5c556df4d29e78cd74629e83c8947bd2df0414a0d537a07be1d0c88387fe506fff81db1bec753567dd3918b5b8658fa2859ced52738ab3
+Homepage: https://github.com/X11Libre
+Description: setuid root XLibre server wrapper
+ This package provides a wrapper for the XLibre X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xlibre-legacy
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 174
+Provides: xserver-xorg-legacy (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Conflicts: xserver-xorg-legacy
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-legacy_25.0.0.8-3_amd64.deb
+Size: 31152
+MD5sum: 60882213b83b243ca5868bc97ec78332
+SHA1: cae4347f1cbd9d71c6eb4b3cc279f2729400f884
+SHA256: dd4b9addb9758451577dc7c463deeb364824325fee78dd30727c372c5923917f
+SHA512: 8c7ac597ca53004f0da64c8da61e4f3b2e8b1ac8cf23024eeed8431764a7931df6bd08c24b49420188149fcc130b1c73e0bed1073fd3c77a8a9e037e33c4459a
 Homepage: https://github.com/X11Libre
 Description: setuid root XLibre server wrapper
  This package provides a wrapper for the XLibre X server, which is
@@ -2636,6 +3234,25 @@ SHA512: c2d4943f824e368d5463ef00ac7099194b9e1b80bfab61f7787082134cb9003733efeed4
 Description: debug symbols for xserver-xlibre-xephyr
 Build-Ids: 0b87288c1cdc84b9245a86afe7d4dfbbeb2dfc95
 
+Package: xserver-xlibre-xephyr-dbgsym
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4848
+Depends: xserver-xlibre-xephyr (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xephyr-dbgsym_25.0.0.8-3_amd64.deb
+Size: 4124640
+MD5sum: 018651866d57689b26a9d6ee87297b99
+SHA1: ec55119a608d58b6fd13a613ee2d0ab0cc66d07e
+SHA256: 09c38e978afe718ae5b23bc7d4831b35a48f6f958d02062245b208e8281bddcb
+SHA512: 1e62664b626ff205f5e53e256d860e69e544023c81572da0837a656e438753c1bbf73eef9efcc051f6277168aca886e22a2739852681766998959fda7b5d5e17
+Description: debug symbols for xserver-xlibre-xephyr
+Build-Ids: 0b87288c1cdc84b9245a86afe7d4dfbbeb2dfc95
+
 Package: xserver-xlibre-xephyr
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -2696,6 +3313,36 @@ Description: nested X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xephyr
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2581
+Provides: xserver, xserver-xephyr (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xserver-xephyr
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xephyr_25.0.0.8-3_amd64.deb
+Size: 957800
+MD5sum: 5dd4e9440355df51002c0284ce407aa8
+SHA1: f4afe35ad8953e6b3657e86a0ca6bf9c040bd74e
+SHA256: 2020a31f2d2052072e2f7ca6fae6ac7a005e85411d82787a613b00c01ff5a2a5
+SHA512: 59f301dd05a365442a7daae8d22e27610078482547d7b6bc2571a6067f515f6e1b09ff402d160e6017a94128dc47254743a3d1447a84051decee636008d261b0
+Homepage: https://github.com/X11Libre
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-xnest-dbgsym
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -2731,6 +3378,25 @@ MD5sum: 84331b5a7fda9054a64ad2c9c4222e3a
 SHA1: a304b0ca3fafd3be699c2d78f0c257124db63eb6
 SHA256: 58ab094e7cf115642b04db939c0402bca70315f6b99c5f5487bbbb472a9e3955
 SHA512: 703fb2dedf398b29840781cb93a9bae255b6e468a7259ec9205c8744c8408babab18f90c6f0eead88e9dc0734fd8239d79f1e9d1c64bca807d92db45504796a0
+Description: debug symbols for xserver-xlibre-xnest
+Build-Ids: 54e73cad7dd5256046ee36cf6ba56cc945e30222
+
+Package: xserver-xlibre-xnest-dbgsym
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 3306
+Depends: xserver-xlibre-xnest (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xnest-dbgsym_25.0.0.8-3_amd64.deb
+Size: 2855156
+MD5sum: 449a3af71ab4d5bbd89864903dc1756f
+SHA1: 451f04dcf1cf9328b895bf65cc84738690147150
+SHA256: 921ad5b9f82f9522ea838ff24772e5cf0866316b6a326cb5a154dfb3af911b18
+SHA512: ed300cd2879eadbe680b40ce1ad0b27ac998ef9da611dd5ba1fc3c0d79169c9671efec9bf0277fb526798a63ed6554dbc2602ec3ed5de5c88e1413df6bd3d7f3
 Description: debug symbols for xserver-xlibre-xnest
 Build-Ids: 54e73cad7dd5256046ee36cf6ba56cc945e30222
 
@@ -2784,6 +3450,38 @@ MD5sum: 3891893030cc13c609485719fe946802
 SHA1: 35c99902405374cf3b021d8a9b0ac8c93803ed37
 SHA256: 2b699b2653a98f2df3ba70702a510d34c4c1d2649502f265c093f83c44b95c45
 SHA512: 3e22c6480ee3bcfe124e394b3ec86d250e89f7106e62a65ce0362108dc7939ca303b2c5aa1920523f387a8bdf083ca35ad6845e52797d358a51a50cf6e9d2164
+Homepage: https://github.com/X11Libre
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xnest
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1742
+Provides: xnest (= 2:25.0.0.8-3), xserver
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xnest
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xnest_25.0.0.8-3_amd64.deb
+Size: 664924
+MD5sum: 0e04e40723b45e1ff5aaa3b7df4e1439
+SHA1: 462b4c12b6d35609c39d32577dbc55b2e304fe78
+SHA256: 955335b36ffd2c51e6b21c048aa590d682d4bc2281b797bceb610dd84f25d708
+SHA512: b8d3b5f49bd6c5aee5649ed05976bb12e8c64b7abcb3ff410a78ad405989efe94f9077b462b4e588d06491ec1b3aa64fa238ce7956bdb3a3a60ed9a7ebbbb967
 Homepage: https://github.com/X11Libre
 Description: Nested X server
  Xnest is a nested X server that simply relays all its requests to another
@@ -2934,6 +3632,25 @@ SHA512: 77a0522a532d44c2ada8dc65b0aec26add3b1a1288b6e5682b9c7b10c3036706d92f5ec3
 Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: bd7dd9a7d586fa1a9dc8595641a57204a25d97c6
 
+Package: xserver-xlibre-xvfb-dbgsym
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4020
+Depends: xserver-xlibre-xvfb (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xvfb-dbgsym_25.0.0.8-3_amd64.deb
+Size: 3439884
+MD5sum: a7f19d268b2bd06a1f04df39f60b0df2
+SHA1: 9578bca57abecadbfb8b2e0276e6f65a342456a2
+SHA256: aeccc174fa3719fb3060c30dbaa2ad43398590cafbd7f510859ff10f001dde67
+SHA512: e47696c6d1a550321d0e2347747e9a82acc6ae0f7d3340af4c0fe3f589580c16e975731a9bf71862b83a31ff9cd04f970c9f159a8b3ae16e86ab69558aa8a881
+Description: debug symbols for xserver-xlibre-xvfb
+Build-Ids: bd7dd9a7d586fa1a9dc8595641a57204a25d97c6
+
 Package: xserver-xlibre-xvfb
 Architecture: amd64
 Version: 2:25.0.0.8-1
@@ -3016,6 +3733,47 @@ Description: Virtual Framebuffer 'fake' X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xvfb
+Architecture: amd64
+Version: 2:25.0.0.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2179
+Provides: xserver, xvfb (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Conflicts: xvfb
+Filename: dists/trixie/pool/main/amd64/xserver-xlibre-xvfb_25.0.0.8-3_amd64.deb
+Size: 806804
+MD5sum: 974164d85c81b859f8f1c6cea482aad2
+SHA1: 55bc322e1748dd3b19fe4740e7fbf04566217d70
+SHA256: e073aec85c052ea624141e2706c0696337170fdff34db1f1fa8e1e27761d35ea
+SHA512: b121c7cd8e80a68d26e156a12c180b479bcf8b0e85a6935bc479571946015a53711dbd6196fb975e7e58d3919ebe0e12733cbd3649a90ac5cee5570be9aec2f9
+Homepage: https://github.com/X11Libre
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre
 Architecture: amd64
 Version: 1:7.8+1
@@ -3061,6 +3819,356 @@ Homepage: https://github.com/X11Libre
 Description: XLibre X server
  This package depends on the full suite of the server and drivers for the
  XLibre X server.  It does not provide the actual server itself.
+
+Package: x11proto-core-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-core-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 698876725a9e6c573c32e281740309dc
+SHA1: 504f6e478054ca2fcb6506f306466b9d840428b0
+SHA256: bcd99b83ff33b414df80c4b91abd3c669421f0c5af88d18703fa09857136fe26
+SHA512: b46f83ad7e9079b6f36055a525b6684e1b96220edd6a164e280ab7ec856d192045eff7c297f3fda5d8ab102c1070bd1e022980b8417dcae7b494f9aa885279fa
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1697
+Provides: x11proto-core-dev (= 2024.1-1~bpo+1), x11proto-dri2-dev (= 2024.1-1~bpo+1), x11proto-fonts-dev (= 2024.1-1~bpo+1), x11proto-gl-dev (= 2024.1-1~bpo+1), x11proto-input-dev (= 2024.1-1~bpo+1), x11proto-kb-dev (= 2024.1-1~bpo+1), x11proto-present-dev (= 2024.1-1~bpo+1), x11proto-randr-dev (= 2024.1-1~bpo+1), x11proto-record-dev (= 2024.1-1~bpo+1), x11proto-render-dev (= 2024.1-1~bpo+1), x11proto-scrnsaver-dev (= 2024.1-1~bpo+1), x11proto-video-dev (= 2024.1-1~bpo+1), x11proto-xext-dev (= 2024.1-1~bpo+1), x11proto-xf86dga-dev (= 2024.1-1~bpo+1), x11proto-xf86dri-dev (= 2024.1-1~bpo+1), x11proto-xf86vidmode-dev (= 2024.1-1~bpo+1), x11proto-xinerama-dev (= 2024.1-1~bpo+1)
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Filename: dists/trixie/pool/main/arm64/x11proto-dev_2024.1-1~bpo+1_all.deb
+Size: 593132
+MD5sum: 0d8e2c5b50e8b97b336cc1511f69b35f
+SHA1: 5d9c119278075433ec25ebc53273c07b5489942e
+SHA256: 0c8026ba712c6a11d2d54df14104f7201c8604bffc0996fad5be24d7723a205d
+SHA512: 19bcae59ca3ec6943034916fb76b2a6820f08498a913b7608565c46f261d8c9747b882c4adc16865ae3e4d8c9ca53286e5e17276c63eb2acbbc985ef34a65f57
+Homepage: https://www.x.org/
+Description: X11 extension protocols and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the X11 core and extension protocols, and also provides a number of
+ utility headers, used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This package is built from the X.org xorgproto module.
+
+Package: x11proto-dri2-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-dri2-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 31c4b062c316d3a8efd5d38458a8a00a
+SHA1: a2aaeedf38ebf1a191b108a019f79fd2c70d9497
+SHA256: 210c31a1b63e5c45771be23f6d5395029f8f522b14f72dd08f80590cf96d2a6c
+SHA512: 5fc8d329be40ecfba6a65f21acfa5a0d45e81e97d6db4eec783e1c878ab0ca3ddc10972465932611e359aeb6d1b33cc4106689b7e2103719393af00de4c449fa
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fonts-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-fonts-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 41cdaec7ebca1065b0658436aab16820
+SHA1: e2cfe80a625c2aae531a1cb9f1bf6a548bc6888e
+SHA256: 199cd02c1c4d940f8b65c27fafd35bb1acd7c3a9713c978dca2fb337787387d7
+SHA512: 970011479dcd0807edec3718b1ea5dfd92914a7043683a0b0a9109a41aabeb21ac115e497b60ac6f7db8ff30cb936d576736f22bfc8abeb658a10afa4656e7a4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-gl-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-gl-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: f3886718c6e96cd7eee458c1026f4b9c
+SHA1: 21eb0723e291768649c40da5f1335d720f250dd0
+SHA256: 60edab57118d409005bc55d97560f5d0f6a9b23f4e0291a98661aa3d316469bc
+SHA512: 37d2b372250c0601e9009bd1d98682f34f230ffe4d1cdd154ffc72d2c388dc4c426889d3e7c632d2a7b031467cea94d75d183baf06fa948f21818ce7d8fae089
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-input-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-input-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: e6df5024cc13ddf58cabc0461a7077a7
+SHA1: b49f58d8f007b885460648337a5c9d26d4db2219
+SHA256: 2eb68ca602be80b977ebdd343cd77ce59ae9aa470c659ab13baa2e47e147e0f8
+SHA512: 4cf57465e10de277022ac951be3c06e1a9fa646362ec9ef3bf17c19511f60e97aa99bb34679005d5e6f8ad7f598d97b8d0dc41a2d2f4677ab6a68a2091c4cc74
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-kb-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-kb-dev_2024.1-1~bpo+1_all.deb
+Size: 3480
+MD5sum: 527dca51337ab3afd597eba2d1dced3d
+SHA1: a8f14b979b37935116c3e530c556d49ea5886c1d
+SHA256: 8a7eeab9706d5889a99822bf84d04ba3a64516cd71c3f2396f5b49caa996d091
+SHA512: e3ba1bfc47c671a6d6b4bf17d919e0e1a40e50f64849d641dad816cb26427622e14ca508470530496eb84d6ec30821daf14dae6ba34e66d4192bbb71ed3c54d1
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-present-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-present-dev_2024.1-1~bpo+1_all.deb
+Size: 3488
+MD5sum: 298f11be929d4b86d932d938c40198aa
+SHA1: 94ad5adc8d14391ed730ce4a9bce48df9ca5e59a
+SHA256: 6d3577b7a6131c20d3300fd28a4144da89af15efc013fb05f28caa54568491ff
+SHA512: afe3e6de2fff75dd5a8b1b9268acea589a637cdaaae96a5036b81943d5d4495852ef96884051b97d296c0e507319db41fd5a066884938b46d421f6b82f9b99b6
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-randr-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-randr-dev_2024.1-1~bpo+1_all.deb
+Size: 3488
+MD5sum: 39077b7f50a86917657bd099527f52db
+SHA1: 656f78693f96b0995ae1347e75b8d1ff00ce4509
+SHA256: ad124eb4f77db9a26aae4e3f05f71a7ad1be862e0ed99e22635833370a519924
+SHA512: 305bba040737e188bdc2746163a97fcfc14bfe8b80843d88377bb148ea4140f0fa01a25cd913fdc2d154b9e651ae3128fde62642ce34b455a909fd672f08409d
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-record-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-record-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: 5f349899d9fa7031006a4130aba42fd1
+SHA1: bbacffd00219a480a54cc23372775c76661c7af6
+SHA256: 31785aa5c57c1cd3028ef6aecc6bd5c404a5c0314c4bfc9403909114ced02261
+SHA512: f35ee755da9213c9f912233659d62310c1d3f215cf40e54a34e40d5abac2ebceba84180b12f1e2d2d67c1ee93df1b054e06ac8f09f6915b278cd75f30fec7de4
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-render-dev
+Architecture: all
+Version: 2:2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto (2024.1-1~bpo+1)
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-render-dev_2024.1-1~bpo+1_all.deb
+Size: 3496
+MD5sum: baa4aade80991c85f04eaccc9c371607
+SHA1: 94d8ed0c01e9df609e84a260476e26f45c4f9995
+SHA256: 5d9ba96f447f75c8473910f40fef027207cf19d8215fe04f99eb0c1d15157e61
+SHA512: fc28b6c3c17bf24f076b166a2b8268f4ec36351a1b84b0c2723d6232221acb519ae104127dbae646979c6934f1b2742d41dffbc5ea154a08fdf4d1a90ddcc839
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-scrnsaver-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-scrnsaver-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: 9ee25fab155641c551f15b564a1dcd5b
+SHA1: a2203391e9b0efecb5c995678e0c2c16e2b2c0d1
+SHA256: 48315ef19e86afc617d1625dbb82359626a9eb8e219485948088ce08f53570bf
+SHA512: 923e88b7f02ccdbb27fa5291230995392d5477942978dbac5a913f82b767cf13705ac85fd39134f4321a73be20cc7d77d228d3c28004bf94f02ad3c191965972
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-video-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-video-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: fe98cfa79e62f693aaf74ea342855441
+SHA1: 2f9b1d64bae3f0e6583d8346dd979812fd5d7111
+SHA256: 7c829b8052771400a06a10915585f14a6500a9660978caffea90d5351c58834a
+SHA512: b2bfe2f33f21b04d443ae695fc221404980d8217fa5a20aab77332782bb4e5e9672589cd1fe21285bcd412051194cb5f16304f2e429344c63fe742015f26cb22
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xext-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-xext-dev_2024.1-1~bpo+1_all.deb
+Size: 3476
+MD5sum: 0e91f58ec4be57c36a936943692d9cf5
+SHA1: 66682006a51c4575c0147e786333807782a13daa
+SHA256: 2b8e0feda240f75f8a9e3f3461bb49f20aef59cb2d65b41be1fa6c7ae7aabd2d
+SHA512: 4e78794115b3799292424012667699408008b9d53dd050c5cca25020f7d675d4f48bdb4c23ce38c327121b00775b3ac8ab19b4476fa6951c11c4cc65da273c3f
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dri-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-xf86dri-dev_2024.1-1~bpo+1_all.deb
+Size: 3484
+MD5sum: 985884bc715a3efea5ed7651fe030079
+SHA1: 9610f3fece4a55966739711458a0cf86c478feae
+SHA256: a1e5bc2baf4363af10aeaea756dc81921a30d93f5e93b8aae82f8f66c5b9b783
+SHA512: 3ff9508a06d35b776f65156a94f5a6858617a8bf2f15dd3ea93909a5385832f9bba3a86481a9f9c1381c5db557ce70b8d9537a5127a86d5f05b044a5752d92a5
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86vidmode-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-xf86vidmode-dev_2024.1-1~bpo+1_all.deb
+Size: 3496
+MD5sum: 6fd247b20ce324c74f0875de89a7505e
+SHA1: 7ff31367fd1f8938babfcf4c1f10b6a32aba892b
+SHA256: 3b65bb739a51eb7efa3dac61b591a09004530d918bc6696b49c61b0ae72a51e4
+SHA512: d7ab6d5dd2ae5a09da6061a717edd9212ccfad11364bb776ae8ff8ace39907e4decf71e9c0cac91239d27a5c9d22f0db1182546814e29a6734672acb5eac597d
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xinerama-dev
+Architecture: all
+Version: 2024.1-1~bpo+1
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Source: xorgproto
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Filename: dists/trixie/pool/main/arm64/x11proto-xinerama-dev_2024.1-1~bpo+1_all.deb
+Size: 3492
+MD5sum: 9f564a7abc03db83743eb4db9f19acce
+SHA1: 0dcd0e5531a88c205bca5c03fdbe5f3b84c0de09
+SHA256: a1b5fbc142807af995444cfa3ca4567ded977518992019485f660abefdf5804a
+SHA512: 27e16c987c976be901d50955227e5f21c1106458dfdbed501ce51024733ccc3ff28522a93b9cf42fd6f661b9b018f94821b21bd4dc4e2ed1d751fb205fb53bb7
+Homepage: https://www.x.org/
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
 
 Package: xlibre-dev
 Architecture: all
@@ -3163,6 +4271,33 @@ MD5sum: 4c1858c6a8eea27a4f0b9ae2691b5ef2
 SHA1: fde77e7c9b44858dd994f5d869b66a05cd362d08
 SHA256: b6c062b84dcc83d00956e530d21d442745fea8ec0ca5afe718cc73f68fefc5c5
 SHA512: 6fc8a04cd6e89bd258f390450ba736c25cf8ba37d272aa3045d02e19921833d018761ed418d0b663ae23b16d3f9eb426301f5cbc5690a21803560ac54f7ade17
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2934
+Provides: xorg-server-source (= 2:25.0.0.8-3)
+Conflicts: xorg-server-source
+Filename: dists/trixie/pool/main/arm64/xlibre-server-source_25.0.0.8-3_all.deb
+Size: 2912200
+MD5sum: 828f25c8e3d8098513729f88ee2cf791
+SHA1: b35f6b5e2939fa97985ecd72bfee075360d46041
+SHA256: a07ea2cecbb23611f3d507deda1b3c0a03376abcf1b6f0018b03dbb3fb19b3ce
+SHA512: 7c81fc672b163343e64a3bd300ea44871ecd6e3b279c5bcd4f97faaed8f40de314a52b379a54e7e2a0703bc7a58eee2c73c51893c4c24bc5a7bc810cb440f31e
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - source files
  This package provides original Debian (with Debian patches already
@@ -3370,6 +4505,30 @@ Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
 
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.8-3)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-common_25.0.0.8-3_all.deb
+Size: 25004
+MD5sum: 26839d594d59230a21966ba31240a9ec
+SHA1: 747675103288cd6d6576324a9e492ffba7dace10
+SHA256: 8e68b5e046b2b4fea680311d40917319099daedf6cdb74225f356dbbd05a77fd
+SHA512: 10facbf9e64c300fc346bfcaccd75d1b1b55f44e870b9e0be3a818b9b4f837a202a1cd10ae72a1193e9c8c2b3ef2c034c14c45ffd230c786fff2b28665e75bac
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
 Package: xserver-xlibre-core-dbgsym
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -3405,6 +4564,25 @@ MD5sum: b03e927e3f24b33970c5a624db813024
 SHA1: fdf3fc8e268813d48aaba59f5d33d9a187c5b1b7
 SHA256: c77528ab3a7bd8ef45672a6a485d47a2714b54a571f5c4687352d12769605ed7
 SHA512: 316abf647eb57e8180eab1725c5e45324fde5f7697f45a6b41f31ef9bf97ac0f31f9ccbe240438bfa0d2b912f1f0bcfb4f31b7af96d6f6a7a4090a8c9f114251
+Description: debug symbols for xserver-xlibre-core
+Build-Ids: 039a040b783cf360cff965f979bc2775a35c8b08 0e618b62724f25023a6582ecb532805855544e33 1698f74679c35219e1ec023c7c672eb150db805b 236d27a90c1c0e317c9aea053fa38eaa525fa9ee 26368b14654dd14981d9820ba39e601c8ba08b82 6ca9b3b1b12864fa5fe33bc4fe4cf87dfb7bcf09 799875ef4033c97770577ac54a9a22e6d07f3b40 8115fca8821a6f743a053914b5ace10ca21fae52 a437d07b1cf7069f445065921223a4881cf3fe2a afab3cfd3b13a0ce850d82658a7e1e57aac39523 cf2a4fa263e3aa7ac2238237251c866e973f90b1 d7adc78fa1c49967826ba603e9c22bd70a6367e0 f018d5cd06d0bebb80959ee43b3954c7bf918866
+
+Package: xserver-xlibre-core-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 9343
+Depends: xserver-xlibre-core (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-core-dbgsym_25.0.0.8-3_arm64.deb
+Size: 6222236
+MD5sum: 1f103dcefb37635d5f89d8ac565a24b2
+SHA1: 0fa29ad8ab63acebe6d9a58734b854af662ed5bb
+SHA256: 93e40b715177d9427a470ba923f99da7f0786bb33ef733e168fbe104b5cc4695
+SHA512: 609a92e6e9f52baf4d3fb3cf00cab175b2a815f37b53913669aaecd071f262d2875308447401e157e02682126d62a61af4f0edc6dac9b276c78ff44e4b850888
 Description: debug symbols for xserver-xlibre-core
 Build-Ids: 039a040b783cf360cff965f979bc2775a35c8b08 0e618b62724f25023a6582ecb532805855544e33 1698f74679c35219e1ec023c7c672eb150db805b 236d27a90c1c0e317c9aea053fa38eaa525fa9ee 26368b14654dd14981d9820ba39e601c8ba08b82 6ca9b3b1b12864fa5fe33bc4fe4cf87dfb7bcf09 799875ef4033c97770577ac54a9a22e6d07f3b40 8115fca8821a6f743a053914b5ace10ca21fae52 a437d07b1cf7069f445065921223a4881cf3fe2a afab3cfd3b13a0ce850d82658a7e1e57aac39523 cf2a4fa263e3aa7ac2238237251c866e973f90b1 d7adc78fa1c49967826ba603e9c22bd70a6367e0 f018d5cd06d0bebb80959ee43b3954c7bf918866
 
@@ -3476,6 +4654,40 @@ Description: XLibre X server - core server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-core
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4795
+Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-core_25.0.0.8-3_arm64.deb
+Size: 1322092
+MD5sum: 8d7bfc4da1353f3f9f2b564c2ed84e15
+SHA1: 18d65ce6248b961b771a99b40c1d63353ea9a566
+SHA256: ac7fe9a3444ffbf2d2e8779838e4620ad4f39b00ae63515656f0634b94442c8a
+SHA512: 586faf92683dbf5d064f15ffa6fa8ce158351f47269388cebb19ff39724fc1f24ff640dbf98264492b7572c819667045bbf40f7a03c1c4165545a5fce5efe5f8
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - core server
+ The XLibre X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The XLibre server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-dev
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -3526,6 +4738,39 @@ MD5sum: 7791d42c318fddb90ba938f3900c839c
 SHA1: 85a37d20c84c81b22d7eed85c7d96f494af19432
 SHA256: fe10ff0d53d02ca56b382d0bd240f52240761b9a2294a8b533f949d471df3a26
 SHA512: a50e3688944009c67c7aa1deea715d58a5427a9d101477f6e7d51a724ac43742d004039b347a2b365bd419efe2cced30988848413014df3c03e132a7cbbc8ac9
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - development files
+ This package provides development files for the XLibre ('XLibre') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xlibre and/or xserver-xlibre-core instead.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-dev
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1102
+Provides: xserver-xorg-dev (= 2:25.0.0.8-3)
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Conflicts: xserver-xorg-dev
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-dev_25.0.0.8-3_arm64.deb
+Size: 164552
+MD5sum: 1377f5f5529bd4eb95407fc64f94b63f
+SHA1: 627fab46f87debab542584d891c1ddc3f228720f
+SHA256: fc0b19d5a7f3a32b77886af8a705edfa505768d75b6f16270c8f07ebda19b6c7
+SHA512: c9c13eca305444d3944bb05a4a5363b47d7fd6c8019aeee48ca24ccfc4ca09ac7676489c622854ab2f9f0ec8fc8a41e8f1f161ae103e062c44b73cf867f5e038
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - development files
  This package provides development files for the XLibre ('XLibre') X server.
@@ -3856,6 +5101,25 @@ SHA512: 69f720d21828478e275f8826e9c595a406fc83589f23b8afdf0cd81d045c275d7c2227aa
 Description: debug symbols for xserver-xlibre-input-libinput
 Build-Ids: 2ad33d6a37c96a6c71f44175dd1669b85d2ad3fa
 
+Package: xserver-xlibre-input-libinput-dbgsym
+Architecture: arm64
+Version: 1.5.0.1-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 149
+Depends: xserver-xlibre-input-libinput (= 1.5.0.1-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-input-libinput-dbgsym_1.5.0.1-3_arm64.deb
+Size: 119252
+MD5sum: 8d16ddb6dd3198dee40a985e2a1c8006
+SHA1: b6a3457190305ae44180a176942b0241d2924380
+SHA256: 94ecf6025e42fd84a53da6f93732652ab32b47a8c03fa657f07974d50f64bb76
+SHA512: 051a04390d2874cb6d344ccaab3a3636e09a46a86ecd7022f4a3afb96c95d30bd48c0cfcf142f7a1881ca6483716bc241b85bcd200702362ec4201a779dbad83
+Description: debug symbols for xserver-xlibre-input-libinput
+Build-Ids: f27d125aa482c91f5abf065956bda42d8d016ea4
+
 Package: xserver-xlibre-input-libinput-dev
 Architecture: all
 Version: 1.5.0.1-1
@@ -3906,6 +5170,31 @@ Description: XLibre X server -- libinput input driver (development headers)
  .
  This package is built from the XLibre xf86-input-libinput driver module.
 
+Package: xserver-xlibre-input-libinput-dev
+Architecture: all
+Version: 1.5.0.1-3
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: xserver-xlibre-input-libinput
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 26
+Provides: xserver-xorg-input-libinput-dev (= 1.5.0.1-3)
+Conflicts: xserver-xorg-input-libinput-dev
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-input-libinput-dev_1.5.0.1-3_all.deb
+Size: 5116
+MD5sum: aae6439798660ae7345ca9ca91fa9def
+SHA1: db9dab9a7d9ddd64a95edf9720fc9372a61fc647
+SHA256: f16382a456990c23a4f8d5255bdffe07afd323d95e61bcdcc44fd4771d8d3624
+SHA512: 30d588e531cf85ee2889fd209eeb5461b7ce529ccae7a9c60d9a7ef2046b1c9f4668dcc7323b1b27717335456a062374a3422936cd10c2c8c382b4a8e25e9d5c
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xlibre-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
 Package: xserver-xlibre-input-libinput
 Architecture: arm64
 Version: 1.5.0.1-1
@@ -3946,6 +5235,30 @@ MD5sum: 9a6292303d642bc3705517cb375e6aef
 SHA1: a420cabc77ce6184486b4ecaa40bc1100d6e173d
 SHA256: b6aaff3ae8f169d7d847ea7421631ab5278df432c5fbea095ea8d1efdca43d4f
 SHA512: 6668c1e57e7436ab33ac608e1e76bb5d4240fb28ed11de41c88f8dc2401edf3a349cdd6d8e5d0f1722526fe38411c59a8d20d89aa9486d558f553d08cc27f258
+Homepage: https://github.com/X11Libre
+Description: XLibre X server -- libinput input driver
+ This package provides the driver for input devices using libinput library.
+ It can handle keyboards, mice and touchpads, and essentially replaces the
+ separate -evdev and -synaptics drivers.
+ .
+ This package is built from the XLibre xf86-input-libinput driver module.
+
+Package: xserver-xlibre-input-libinput
+Architecture: arm64
+Version: 1.5.0.1-3
+Priority: optional
+Section: x11
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 163
+Provides: xlibre-driver-input, xserver-xorg-input-libinput (= 1.5.0.1-3)
+Depends: libc6 (>= 2.17), libinput10 (>= 1.26.0), xorg-input-abi-26, xserver-xlibre-core (>= 25.0.0.8)
+Conflicts: xserver-xorg-input-libinput
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-input-libinput_1.5.0.1-3_arm64.deb
+Size: 38096
+MD5sum: b19323f918dc9cc103bce804917ecd2b
+SHA1: 8d96b0967ec43c96712728493d542340948887f9
+SHA256: e1559e24c8c34a20365f83a69c3f95126b9ed40a7190bebd340188703d410f13
+SHA512: 83bdf487bd525a7dfedc65f699d4058538392b937c7d896615f108d7da9b08143b99f1d60d5f795319397c1045c885dc7614b0abb3ec987142463aac08ac5604
 Homepage: https://github.com/X11Libre
 Description: XLibre X server -- libinput input driver
  This package provides the driver for input devices using libinput library.
@@ -4338,6 +5651,25 @@ SHA512: 39e073c8b9d8e0885ebcc7aabe48c74ae631b215eac202985a6b30b012258721fce1e15e
 Description: debug symbols for xserver-xlibre-legacy
 Build-Ids: 6881274d6c2132aa5c6fc918b44ecbefd3b58268
 
+Package: xserver-xlibre-legacy-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 31
+Depends: xserver-xlibre-legacy (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-legacy-dbgsym_25.0.0.8-3_arm64.deb
+Size: 9820
+MD5sum: 1a3bc1fe6a216b238ac1335fea4d41c2
+SHA1: 262f4ccb1bb72163d8b16de0d5977a7086e0ab33
+SHA256: e3ad31f95229e9aecfef773a117c0c28864ae44cf4062619d3d23a087e4b6819
+SHA512: 2db22639b236a985706084be9ca12f6105e410b1242535c571bd72c1432dfab8b850aa20af8e137db2ee1c6e5f4bc075910b5b8f2a871758e2eb4043be1e4c32
+Description: debug symbols for xserver-xlibre-legacy
+Build-Ids: 6881274d6c2132aa5c6fc918b44ecbefd3b58268
+
 Package: xserver-xlibre-legacy
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -4381,6 +5713,30 @@ MD5sum: 34f8efc3dfade42d2931f1e84e3dd74a
 SHA1: 67728e6139855ccb1ee5dc6ba2a09f4069c50830
 SHA256: b894e109648000d9b7d1d2ff3fe954ce6a06d6c509e8d2966e55933c9d244b05
 SHA512: f851aac69703cdc70669333e085d45aa5572505694507061cb29365b686b7c945168aeed4453fa9863c93a92f65d1817914ce9502ff9bfd5f8d38c96482f49fe
+Homepage: https://github.com/X11Libre
+Description: setuid root XLibre server wrapper
+ This package provides a wrapper for the XLibre X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xlibre-legacy
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 226
+Provides: xserver-xorg-legacy (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Conflicts: xserver-xorg-legacy
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-legacy_25.0.0.8-3_arm64.deb
+Size: 31384
+MD5sum: ee5bdc273ff93821ed5bfa3b608e5ff2
+SHA1: 4284882adf7f3d8915e1df36949d87ba3d8efc0d
+SHA256: dd5357cc6f041791595fe99d2ff104720d7f87e582d55597eed792ad0b18cc2b
+SHA512: 4cbe0434f2d3dc04b8a7cbe8c3b3e67972f7d71df7aeb0d3d0239b8f00ce6c3715c11c44c57b0286b9d07998f87a6b44a3a9ff45cfbe9fe5cd27e9cfe87bae74
 Homepage: https://github.com/X11Libre
 Description: setuid root XLibre server wrapper
  This package provides a wrapper for the XLibre X server, which is
@@ -5316,6 +6672,25 @@ SHA512: 3e5bca800341c358bf8b7e99187bb2ffc0b3702615fb3f9b469e687637e2c6c1be1f840f
 Description: debug symbols for xserver-xlibre-xephyr
 Build-Ids: 3b5ca4b84fe651bf4650d78a70c8223899938d57
 
+Package: xserver-xlibre-xephyr-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 6855
+Depends: xserver-xlibre-xephyr (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xephyr-dbgsym_25.0.0.8-3_arm64.deb
+Size: 4061092
+MD5sum: a3582afdd3e147885b78a6e1a2f8b83a
+SHA1: 068df244aef6ac79691c4bc3c0535831040ceaa9
+SHA256: cd9bb0abdc976843d5a56e8c6c88a08c1af389bc1b9788df4f9edc41e520ac11
+SHA512: 1d490de08e96c20f6599c514c0b1d2c35dc7bbcdc4f72ee9ef386fe13ea3215bb53a5dcddfed366f5728f9d8b544c888ebfad85e7dc588c995c61966eaf5f8be
+Description: debug symbols for xserver-xlibre-xephyr
+Build-Ids: 3b5ca4b84fe651bf4650d78a70c8223899938d57
+
 Package: xserver-xlibre-xephyr
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -5376,6 +6751,36 @@ Description: nested X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xephyr
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2765
+Provides: xserver, xserver-xephyr (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libepoxy0 (>= 1.5.2), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcb-glx0, libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xserver-xephyr
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xephyr_25.0.0.8-3_arm64.deb
+Size: 890180
+MD5sum: a2147587773c731e2fc834c366b578fd
+SHA1: ba094d1d0a4f7dd7fd99555f328e963addc81afb
+SHA256: 9db23d75fc70e6eccd9d81c392bf76cfdff60dcaac30d71813eb29d9848ba7a0
+SHA512: 56015ee84612b6422d28e9d638bac934a7dafd2e67a1a08279eb9b4956d4f3f60cdb2a3b59282444f24f79c7069567729abe5a3d472d54305ff0be8e4c969335
+Homepage: https://github.com/X11Libre
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-xnest-dbgsym
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -5411,6 +6816,25 @@ MD5sum: 44b6d57515a28f3a69a3fae606a9d5e2
 SHA1: 8db0984ea4ca3dea049d50d07cb5b953a9c03da5
 SHA256: da5ec43f414d17a005453d8c79d487ce94e2bc9af98c4bf289e6d05da277d4a8
 SHA512: 14ad3428be316f38298b2ad3a461abf7c9da87197485a65c04acf7483df201685a681e9768fee0e8ae5386aafdf6b2da676bc239ad753fc18d54bbca5255d02d
+Description: debug symbols for xserver-xlibre-xnest
+Build-Ids: a164323d4fbf5618393dcc0a90c8b9d1f30d6678
+
+Package: xserver-xlibre-xnest-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4700
+Depends: xserver-xlibre-xnest (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xnest-dbgsym_25.0.0.8-3_arm64.deb
+Size: 2811984
+MD5sum: d198003add99591fe68c339089c13922
+SHA1: 1d9b8d9ba30bfe40f91be355762c3eb0bf6cab99
+SHA256: 522dbfdd6f52a3a5f37135085c5600a9f558e0f4d179ecd1094dbe8cf2b32006
+SHA512: 84e68a66507a96331ebd3284871a92e5968c43bef500da0ebdeb4a1b4c227f698e5890f6f68e09c196d42b477aea95a562df4087da13f4e26485f1849fd787bc
 Description: debug symbols for xserver-xlibre-xnest
 Build-Ids: a164323d4fbf5618393dcc0a90c8b9d1f30d6678
 
@@ -5478,6 +6902,38 @@ Description: Nested X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xnest
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1929
+Provides: xnest (= 2:25.0.0.8-3), xserver
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xnest
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xnest_25.0.0.8-3_arm64.deb
+Size: 632376
+MD5sum: e22ed551d05b79cc4ba4f48108a99399
+SHA1: e91d014b50c55a416cb593785fd79c3402614d80
+SHA256: f7717a002dc0144d868b5c70869a69f49a5d3aec25b52bb7135489a0ae64168c
+SHA512: 8c1b072baffdfdb333eb0ab64e989899743fa40373dde88a9fa1c30296688ebaa5fb32b069cf3cc9ddf3ddbfa1f4921d2bebfaabe0df4902a6ad8d08618b726f
+Homepage: https://github.com/X11Libre
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-xvfb-dbgsym
 Architecture: arm64
 Version: 2:25.0.0.8-1
@@ -5513,6 +6969,25 @@ MD5sum: a985b9e55a64464900a4b13a87d9f82a
 SHA1: 11d4fc8379af155f5c4cb9248383bf188caa58d3
 SHA256: 517fe09b63cfd4276a7ef918785d6550efc5d33e3d7ae78067b45033317f3679
 SHA512: 1e0a37a33d18436c74be31fa81118a09306aec9ff6cbed6127cf6bba8673605b45f51d28137db829b4548845a447eaaf859e8a189d1af5df10b81a51d150b22e
+Description: debug symbols for xserver-xlibre-xvfb
+Build-Ids: f08621e50b7af072b776e2972777c1f0eb382b99
+
+Package: xserver-xlibre-xvfb-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 5750
+Depends: xserver-xlibre-xvfb (= 2:25.0.0.8-3)
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xvfb-dbgsym_25.0.0.8-3_arm64.deb
+Size: 3384620
+MD5sum: f774f2bbaac92b1d63391014a2a19645
+SHA1: ffd240bc02af8ae3264280bba91c4dbf242f3434
+SHA256: 848b1cc9a85c6ae3395bd8cc4375358a35342adb797530a38bdb7fceed0b2a8b
+SHA512: a0e1fd4568522decdf39c01ac6ee3c984fc8f36f2e4464bf7781cfb65d2dd5508e361705f8eaf80fe8d3744ba9ac966a1abdce9649202aa960ce9133fd5ee765
 Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: f08621e50b7af072b776e2972777c1f0eb382b99
 
@@ -5576,6 +7051,47 @@ MD5sum: 3946bcb02bdcd1b521371a473fab6e2f
 SHA1: 15816e1ea88b392e52cbe37c0ceddf81a7c7cc3a
 SHA256: 27b75b086d742fef3bfaad7cbc137ea147b7ed3b244297c1005b08a38ea7c7d5
 SHA512: c2b5f322504b360098b1a486185fbc888957fdbe385d632eb0f64d2f6df3697ffe5ccf3ad4c7038b6b6280f60a26f21b3f0ce73877ba7414c73530e974d9f5e2
+Homepage: https://github.com/X11Libre
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xvfb
+Architecture: arm64
+Version: 2:25.0.0.8-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2391
+Provides: xserver, xvfb (= 2:25.0.0.8-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.8-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Conflicts: xvfb
+Filename: dists/trixie/pool/main/arm64/xserver-xlibre-xvfb_25.0.0.8-3_arm64.deb
+Size: 756528
+MD5sum: a15a8af515a7d37a438d5656a0cc4d60
+SHA1: 33403ed418cd20a7b9c68b89c075acc4440b4203
+SHA256: 4c5a7f88eab633323e8d92a899301a6c1117e7f019d150f335ad0b3c3726d68c
+SHA512: a44ec6db9f9139865a4132096797f449507df77fa04eaf3d00f8120c301679453b564214ca55b019ab764f305487226de7bb16978e994192cc49be31d558f7db
 Homepage: https://github.com/X11Libre
 Description: Virtual Framebuffer 'fake' X server
  Xvfb provides an X server that can run on machines with no display hardware
