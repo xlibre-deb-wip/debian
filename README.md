@@ -23,8 +23,9 @@ sudo apt-get install xlibre
 
 ## Support Status
 
-| Release         | Status           | Arch         |
-|-----------------|------------------|--------------|
-| trixie (stable) | ✅               | amd64, arm64 |
-| forky (testing) | ✅               | amd64, arm64 |
-| sid (unstable)  | Alias of testing |              |
+| Release              | Status           | Arch         |
+|----------------------|------------------|--------------|
+| bookworm (oldstable) | ✅               | amd64, arm64 |
+| trixie (stable)      | ✅               | amd64, arm64 |
+| forky (testing)      | ✅               | amd64, arm64 |
+| sid (unstable)       | Alias of testing |              |
