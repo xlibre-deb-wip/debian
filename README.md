@@ -1,5 +1,19 @@
 # Debian Repository for XLibre
 
+## Install
+### Using extrepo
+
+```sh
+sudo apt install -y extrepo
+sudo extrepo enable xlibre
+sudo apt update
+sudo apt install xlibre
+```
+
+Thanks to Wouter Verhelst ([#9](https://github.com/xlibre-deb/debian/issues/9)).
+
+### Manually
+
 ```sh
 sudo apt-get update
 sudo apt-get install -y ca-certificates curl
@@ -23,7 +37,7 @@ sudo apt-get install xlibre
 
 ## For Debian 12 (bookworm) users
 
-You may need to install `libdrm*` packages from Debian `bookworm-backports` repository.
+You might need to install `libdrm*` packages from Debian `bookworm-backports` repository.
 
 ```sh
 cat <<EOF | sudo tee /etc/apt/sources.list.d/debian-backports.sources
