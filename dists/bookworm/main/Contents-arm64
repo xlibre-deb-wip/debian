@@ -305,6 +305,7 @@ usr/include/xorg/xvmcext.h				    xserver-xlibre-dev
 usr/lib/aarch64-linux-gnu/pkgconfig/xorg-server.pc	    xserver-xlibre-dev
 usr/lib/aarch64-linux-gnu/pkgconfig/xorg-wacom.pc	    xserver-xlibre-input-wacom
 usr/lib/debug/.build-id/0d/e02f211a3a37de126ef3cc553950ccdb293da3.debug xserver-xlibre-xephyr-dbgsym
+usr/lib/debug/.build-id/0e/3f0563b4e21d51d1865f9a76c23c7127d93f85.debug xserver-xlibre-video-radeon-dbgsym
 usr/lib/debug/.build-id/12/1f8bf012dd727022991489231d6cfc4fe8235d.debug xserver-xlibre-core-dbgsym
 usr/lib/debug/.build-id/16/9913a676c9e7d1138e425b9c9fc927a44e61da.debug xserver-xlibre-core-dbgsym
 usr/lib/debug/.build-id/1b/7d72d61f46f89babf00c46fdf50a437db63e8e.debug xserver-xlibre-video-voodoo-dbgsym
@@ -336,6 +337,8 @@ usr/lib/debug/.build-id/a6/b400ba20faaa02947b5b514c9a81a1ab1c7153.debug xserver-
 usr/lib/debug/.build-id/b3/8dcc6cba495f8b3b0e86c72de955ca317e84c4.debug xserver-xlibre-video-ati-dbgsym
 usr/lib/debug/.build-id/b5/0ec89986271b43e30129fb86557e35c49746cf.debug xserver-xlibre-input-wacom-dbgsym
 usr/lib/debug/.build-id/bc/1c7c385907610f3590bd2f80157aa32ce7244c.debug xserver-xlibre-input-wacom-dbgsym
+usr/lib/debug/.build-id/c1/0b58dd7dd2172900869488562e58638e4f5e99.debug xserver-xlibre-input-wacom-dbgsym
+usr/lib/debug/.build-id/cd/103e90c67175982df94900674ef472a3bc3578.debug xserver-xlibre-input-libinput-dbgsym
 usr/lib/debug/.build-id/db/f222e1153a06bee5fa2d8d1dd69caf8736a014.debug xserver-xlibre-video-fbdev-dbgsym
 usr/lib/debug/.build-id/df/0cd60efb1f3c080dc3f9860231becc99e2db24.debug xserver-xlibre-legacy-dbgsym
 usr/lib/debug/.build-id/e2/c772ef7692ae5239706eb2a725b446a18e3ac3.debug xserver-xlibre-input-wacom-dbgsym
