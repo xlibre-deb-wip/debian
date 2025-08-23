@@ -337,6 +337,7 @@ usr/lib/debug/.build-id/8e/a75c296d709d4b3ee1a65d6f7e5d0e0dd4e446.debug xserver-
 usr/lib/debug/.build-id/a1/9fd8cc7b3670e04f65a153c255cfb2851cefae.debug xserver-xlibre-legacy-dbgsym
 usr/lib/debug/.build-id/a1/b2e566c0efbc731d480455eecaf34bb5f07ca0.debug xserver-xlibre-input-synaptics-dbgsym
 usr/lib/debug/.build-id/a4/2e6ba65679f6f93df110b0d28b148cc9967609.debug xserver-xlibre-xvfb-dbgsym
+usr/lib/debug/.build-id/a9/191189fd96db64aa5d1dfce14d1bd9f6e65f88.debug xserver-xlibre-video-radeon-dbgsym
 usr/lib/debug/.build-id/a9/f3402246774468ffdbe139c1fa5b61c26abe11.debug xserver-xlibre-video-ati-dbgsym
 usr/lib/debug/.build-id/ad/cb701e4da044733700760d3ba944dadfaed19c.debug xserver-xlibre-xnest-dbgsym
 usr/lib/debug/.build-id/ae/c497ec8ab812883d0dd48047a3312c2e01d6d2.debug xserver-xlibre-video-vmware-dbgsym
@@ -353,11 +354,13 @@ usr/lib/debug/.build-id/de/37440331e108977370d8ef1d8b07669b34ab38.debug xserver-
 usr/lib/debug/.build-id/de/476e810a9ec4eaa50f7a8019d279cd1d443b98.debug xserver-xlibre-xephyr-dbgsym
 usr/lib/debug/.build-id/e1/386d4c892faef6d71d173f12644031a4c9551e.debug xserver-xlibre-input-vmmouse-dbgsym
 usr/lib/debug/.build-id/e4/b8a5312f307f07ec88689c0aa382f82864af19.debug xserver-xlibre-video-intel-dbgsym
+usr/lib/debug/.build-id/e6/939145d0aa88f58a1ec1b6e555fe86107eee53.debug xserver-xlibre-input-libinput-dbgsym
 usr/lib/debug/.build-id/e7/ded9df7557cdccddf2057967433635f542c33a.debug xserver-xlibre-core-dbgsym
 usr/lib/debug/.build-id/ef/0f889722a4ea69033dd2feea7dc3766a02b33d.debug xserver-xlibre-video-qxl-dbgsym
 usr/lib/debug/.build-id/f1/2766195509267f90cb8cfd63ea28c10564f74f.debug xserver-xlibre-xvfb-dbgsym
 usr/lib/debug/.build-id/f1/2f35054cf3f158f4bd3dbe5571e4299eff9c85.debug xserver-xlibre-input-wacom-dbgsym
 usr/lib/debug/.build-id/f4/735c7acda9103b8ce7ee18cd5efd75458ce2f9.debug xserver-xlibre-input-synaptics-dbgsym
+usr/lib/debug/.build-id/f6/9eff5dd0c56ce6f879f74aa40301a3b4fa8a58.debug xserver-xlibre-input-wacom-dbgsym
 usr/lib/debug/.build-id/ff/d5c918bf66bb6fc6b882dc2b0fd257ba8e4a9d.debug xserver-xlibre-video-vmware-dbgsym
 usr/lib/debug/.dwz/x86_64-linux-gnu/xserver-xlibre-core.debug xserver-xlibre-core-dbgsym
 usr/lib/debug/.dwz/x86_64-linux-gnu/xserver-xlibre-input-synaptics.debug xserver-xlibre-input-synaptics-dbgsym
