@@ -487,6 +487,33 @@ Description: XLibre X server - source files
  Unless you are building a software product using X server sources,
  you probably want xserver-xlibre and/or xserver-xlibre-core instead.
 
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2935
+Provides: xorg-server-source (= 2:25.0.0.9-3)
+Conflicts: xorg-server-source
+Filename: dists/bookworm/pool/main/all/xlibre-server-source_25.0.0.9-3_all.deb
+Size: 2912520
+MD5sum: 1531ed2ff57d9454022d383cb1f45391
+SHA1: 33be23ec124d29c46a5ff9603991cbc5ad38b16d
+SHA256: 8215a24c1056d0a95ab2960ebca6406ad456935f6f79849cab6e5e702c1cca31
+SHA512: 6df2f7f445a80f49c98d73e77bfe8a1f83e59805e762d7763cafcb10b5e8b444f72be218cc4b60b37bfc90e148d23881188ba02f2f58bbad20bc459c743b83fe
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
 Package: xlibre-x11-common
 Architecture: all
 Version: 1:7.8+2
@@ -773,6 +800,30 @@ Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.
 
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.9-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.9-3)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/bookworm/pool/main/all/xserver-xlibre-common_25.0.0.9-3_all.deb
+Size: 25116
+MD5sum: 88ca27372c4c6d17339088c736e57cda
+SHA1: c5ebd9d61906b02e7c2b659fddfdd4e61b44f19b
+SHA256: 37209525d04c9ce6f740ab1912f50f114691b31800fbc66708f90e1c2caf271e
+SHA512: eac13a703ea4e73ffbc6f720aeabe843e125cce764810843f7b0c0cb5c8a4fad46dbbc26818f50148216703b83d0bcd6ba811de58c1ee611d22fc49e17a0aa5e
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
 Package: xserver-xlibre-input-evdev-dev
 Architecture: all
 Version: 1:2.11.0.1-2
@@ -988,6 +1039,25 @@ SHA512: e76ec0f63ee8d795744370a509b07297c3b2e54364cb560e6d6a774cf5931f509362895f
 Description: debug symbols for xserver-xlibre-core
 Build-Ids: 121f8bf012dd727022991489231d6cfc4fe8235d 169913a676c9e7d1138e425b9c9fc927a44e61da 30d7a38b4d005a4172194cb1576353fee4a75677 31a24effd62d31604e24bd8431e5ba2053553f15 3f0083eda447e2cc8b3ee5ed8be01b8cb4468a28 4e1f054474dc674fd7b15d7fc2bb35074f911527 6ec52f70823c39594fb63edbd619b6fba800a75d 73fec063385a91dd7f1bf605a612f151f466b419 7b46df3eb5c6caaad28bd24c95df57b5ac8467ae 7c03af2ac8968d17d82dc4977858804402978630 91154696de8b97bab70d25e8c798af24c1fab9b9 ef448613841c950de775010d85141b0be0ff1812 f9d0832e268e71e7f2ee4155416247c5705b2613
 
+Package: xserver-xlibre-core-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 6637
+Depends: xserver-xlibre-core (= 2:25.0.0.9-3)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-core-dbgsym_25.0.0.9-3_arm64.deb
+Size: 6152392
+MD5sum: cc1dd0968c39c2ee4a5ddda8f6a8e21d
+SHA1: 2de57b6b458cc62e7419b44058809b37a4195bac
+SHA256: b6adcc39704449fb41d14148845d003e159e4dea77645d71a8cd14c45daaf950
+SHA512: 7dac384e1504deeb6a8e702c99a799b45430d256281691137a29c390ed69cbbfaf273c7231e5a86ddbef66ff3791e1ddc7a0d3822bb167c5340704e50cd29fc5
+Description: debug symbols for xserver-xlibre-core
+Build-Ids: 121f8bf012dd727022991489231d6cfc4fe8235d 169913a676c9e7d1138e425b9c9fc927a44e61da 30d7a38b4d005a4172194cb1576353fee4a75677 31a24effd62d31604e24bd8431e5ba2053553f15 3f0083eda447e2cc8b3ee5ed8be01b8cb4468a28 4e1f054474dc674fd7b15d7fc2bb35074f911527 6ec52f70823c39594fb63edbd619b6fba800a75d 73fec063385a91dd7f1bf605a612f151f466b419 7b46df3eb5c6caaad28bd24c95df57b5ac8467ae 7c03af2ac8968d17d82dc4977858804402978630 91154696de8b97bab70d25e8c798af24c1fab9b9 ef448613841c950de775010d85141b0be0ff1812 f9d0832e268e71e7f2ee4155416247c5705b2613
+
 Package: xserver-xlibre-core
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -1090,6 +1160,40 @@ Description: XLibre X server - core server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-core
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4732
+Provides: xorg-input-abi-26, xorg-video-abi-28, xserver-xlibre-video-modesetting, xserver-xorg-core (= 2:25.0.0.9-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.9-3), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.35), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 21.1.0), libgl1, libnettle8, libpciaccess0 (>= 0.12.901), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xlibre-input-evtouch, xserver-xlibre-video-modesetting, xserver-xorg-core
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-core_25.0.0.9-3_arm64.deb
+Size: 1301364
+MD5sum: fa4bed72cc33943c7f4e2d3820733e41
+SHA1: 161689b591f2ebd003d4ac1402a4bdc5087e74e8
+SHA256: 42e94f5cffe0f812cfee574f42b782455c0103aaba86ef846e0eceddf830bb18
+SHA512: eb8ca3e9bfa657030f3e66079a7133ae5f9e6777a999e564067def652b6c103890ad02c0b631a642ca94484c260e6dab3702c299a8bf078350334dae0a0ef8a2
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - core server
+ The XLibre X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The XLibre server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-dev
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -1173,6 +1277,39 @@ MD5sum: b9d9f09ec186e2c5784e783279907bba
 SHA1: a0214cac2dbda53ad7268dd13de7a9d70279cb73
 SHA256: 22fe2a89a3c4b0408c37589c6e7fead1f2e26f0181d602aa627991a41ad03c32
 SHA512: 9b8f76d4b171267e262a8ba700eadf6a4ad1255943298655fe4448415f6c7e7462c749d97fc53ee3b46bcb53f44d1c84a32c204e803ba1c368eb9de90307cdd1
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - development files
+ This package provides development files for the XLibre ('XLibre') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xlibre and/or xserver-xlibre-core instead.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-dev
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1102
+Provides: xserver-xorg-dev (= 2:25.0.0.9-3)
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2024.1), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Conflicts: xserver-xorg-dev
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-dev_25.0.0.9-3_arm64.deb
+Size: 164684
+MD5sum: 04d55bb8e496c1cd8e429206a4efeaee
+SHA1: ed994eec08e2503441e15d3c16e1f1e6185644a0
+SHA256: c4ce040901b1fddb9684e111fa648b01ce6251a1970b7844ef1595c973f4aa5a
+SHA512: 180a63cdafffab6d9af4c1b91b4301a9f4fed3c8f4db9772ad39ffd01dbbf06cf49c2672215fcfcc113fbe86121cc42df46c57042f7514344e145fc31fff77f3
 Homepage: https://github.com/X11Libre
 Description: XLibre X server - development files
  This package provides development files for the XLibre ('XLibre') X server.
@@ -1659,6 +1796,25 @@ SHA512: 3c0d17fcc5bfda1b9d35c309e9d0937961fec0ec06fe0c42bed23bef8dbde3ad4fb04e06
 Description: debug symbols for xserver-xlibre-legacy
 Build-Ids: df0cd60efb1f3c080dc3f9860231becc99e2db24
 
+Package: xserver-xlibre-legacy-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 25
+Depends: xserver-xlibre-legacy (= 2:25.0.0.9-3)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-legacy-dbgsym_25.0.0.9-3_arm64.deb
+Size: 9600
+MD5sum: b60bb342e13a7db4c30e10b119cb25bc
+SHA1: 7d1ff654952cbae027a906b1bd02f3bf98238d6b
+SHA256: 1395e15b6aec4a023c86273a7212c0b98054988e3278e3cd632456ce50c78cfd
+SHA512: 0ed00d23a08edcea8d3bb9f0a5192b7a1b658476ca3abbacf503b26f22fd340999498f21c2f97a7ae776b995245ea68f865d5223deb02c15618dae5ee29d323f
+Description: debug symbols for xserver-xlibre-legacy
+Build-Ids: df0cd60efb1f3c080dc3f9860231becc99e2db24
+
 Package: xserver-xlibre-legacy
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -1726,6 +1882,30 @@ MD5sum: 16d0348b0f2db4e8e4b861d13b2863b7
 SHA1: 8618ca9c4cd02bb2b733cec67fe9d9786caa3e07
 SHA256: 33f3037c93a11eee9dff2387a074969765884a8031ea5fd542874fa27a668364
 SHA512: c822061db2721470966cad5f0427bc777a67349087d5f8a36a49f839ec9a47ae0756ea05a861b0c6358fa80d49bd9dfc0ab3088db94e418fc6224e256668eb6f
+Homepage: https://github.com/X11Libre
+Description: setuid root XLibre server wrapper
+ This package provides a wrapper for the XLibre X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xlibre-legacy
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 225
+Provides: xserver-xorg-legacy (= 2:25.0.0.9-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.9-3), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Conflicts: xserver-xorg-legacy
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-legacy_25.0.0.9-3_arm64.deb
+Size: 31388
+MD5sum: 48239de61640ae6a51f659e0edb26ccf
+SHA1: f494feec7c472ea18a4949917d67377658afecb2
+SHA256: 3f3909741fe4d3298891bb1d8ef0dec279cc312633f10ff91c32f148ab11228c
+SHA512: cc7b19ded99907e7272b726d60e6bcc7d89d98d2a20e53bfa54d506f6bc8a0fd76e2bdec42a10a1b40c28acbcfcf7f2d435212b3455e91221e416ee749498c7b
 Homepage: https://github.com/X11Libre
 Description: setuid root XLibre server wrapper
  This package provides a wrapper for the XLibre X server, which is
@@ -2365,6 +2545,25 @@ SHA512: 0ae40beee96b5120053a1cf86c80c897defed64d70982f7929e2ca65b9d0adf596cdab75
 Description: debug symbols for xserver-xlibre-xephyr
 Build-Ids: 6af6cd0fba36e0279e9deac6ce8c56219739f91a
 
+Package: xserver-xlibre-xephyr-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 4245
+Depends: xserver-xlibre-xephyr (= 2:25.0.0.9-3)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xephyr-dbgsym_25.0.0.9-3_arm64.deb
+Size: 4000836
+MD5sum: 076130d31716561509de1caa7c98f5ef
+SHA1: 0434a2e560da9b73e12195593c1dd3a75dea818f
+SHA256: f30db4361d45cc19ad94aa7398d5f0380ee59662163d356e377f2dfaedb6d2c6
+SHA512: 5431d52ba1e58a41e5ec485a1613e2cd0df14c46b195950162637b67d049406d4dfc90656c81f3cc7335c2b1e68251c23054fed5a08f358fa417b16bb39b8987
+Description: debug symbols for xserver-xlibre-xephyr
+Build-Ids: 6af6cd0fba36e0279e9deac6ce8c56219739f91a
+
 Package: xserver-xlibre-xephyr
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -2455,6 +2654,36 @@ Description: nested X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xephyr
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2701
+Provides: xserver, xserver-xephyr (= 2:25.0.0.9-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.9-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.35), libepoxy0 (>= 1.5.2), libgl1, libnettle8, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.9), libxcb-glx0, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xserver-xephyr
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xephyr_25.0.0.9-3_arm64.deb
+Size: 876288
+MD5sum: 6a425c61737715650165a1d77737ba01
+SHA1: 013f582430e3408a63a6bddf27ff764ba408ca7b
+SHA256: cf1d05a90b4953c79e4119792b5d2afb5cc14311d15bf1f1efa41ac3d29ac022
+SHA512: 60d31b75909117a197248e4a09ed2eb82affd3c913217d4d3022b3a3f30e1b8161e8392413c82f94acc52f16310a402de716ce873b34767ff0d2abae2e8440d3
+Homepage: https://github.com/X11Libre
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-xnest-dbgsym
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -2509,6 +2738,25 @@ MD5sum: f4be323dc99d147d383b1625d2161c43
 SHA1: 0b661e7244dc758a1863e3865547ed7f78f762c5
 SHA256: 15b1f0cdd4d5eb131f6289a73c508d6ec958d5b9870663bfcb02859724c90cc2
 SHA512: 4fae40ad2cb40a43f0d2b93a2cae5b24ff5526e79293925a5f7a5c22b13f97d38abc821576b439b84ac5fdb7fb1e91b5883d2f3650aa6203e7d6aeb83cb68871
+Description: debug symbols for xserver-xlibre-xnest
+Build-Ids: 6574a8e030364fbe5a2ca6b091eb4d3f64f84d84
+
+Package: xserver-xlibre-xnest-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2928
+Depends: xserver-xlibre-xnest (= 2:25.0.0.9-3)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xnest-dbgsym_25.0.0.9-3_arm64.deb
+Size: 2772216
+MD5sum: 49ffb914c2a38bd490d4b32fad432a9f
+SHA1: 06eaad6d144809a835e5e0160b8efee270d463fb
+SHA256: e0e7ebdde27578b3eb6057b6ecc576328e3385cf10b71a50f5ae82468a23f9b8
+SHA512: a3eca87b079b274955b136b4b5a3378c99c266e0d08ff781704a991601cc361fb220e15054096084326a1a22c4a57b48de88b97558a48b977799e8694a11b2fd
 Description: debug symbols for xserver-xlibre-xnest
 Build-Ids: 6574a8e030364fbe5a2ca6b091eb4d3f64f84d84
 
@@ -2608,6 +2856,38 @@ Description: Nested X server
  .
  This package is built from the XLibre xserver module.
 
+Package: xserver-xlibre-xnest
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 1929
+Provides: xnest (= 2:25.0.0.9-3), xserver
+Depends: xserver-xlibre-common (>= 2:25.0.0.9-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.34), libnettle8, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxcb-icccm4 (>= 0.4.1), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb1, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Conflicts: xnest
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xnest_25.0.0.9-3_arm64.deb
+Size: 625452
+MD5sum: ff64dc9f58d8587b355f72f9e51836de
+SHA1: fa84e32e1c6ff01b6fc7d71f2423bf3950ad9686
+SHA256: 67ecefed4fa0259596b22cf4c88abf03edb4c0c9af0d64580684d5926544ff68
+SHA512: 2c7b5a9b3bd9fec3c54398b7d4379e699ccca7c0afe8b39246cfa6124a6370067a124011dcd6d4bdb3493f6b604a6ed1131bbc54476e2730df11d31935542e2e
+Homepage: https://github.com/X11Libre
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
 Package: xserver-xlibre-xvfb-dbgsym
 Architecture: arm64
 Version: 2:25.0.0.8-3
@@ -2662,6 +2942,25 @@ MD5sum: a5ccd8a0a1e8f6700215e49cbb8487f7
 SHA1: 6824a2b26f6ed1ff4fa7ad2a141433c4aed303bb
 SHA256: f1313642aa8fbfd95b6f9ba4f788d886591690c6503429b14ae6e0109a00698f
 SHA512: 1420cb4e374d85d91da841a4ecfa8d6074be1163cba58ebcb2cbad3e00b06e9cccda3715817c1661e834e6aecf787cad78afeaa91aa328bd95fedea65a782cb3
+Description: debug symbols for xserver-xlibre-xvfb
+Build-Ids: 9ba7dd66085d105acec84027cddfdff047b30561
+
+Package: xserver-xlibre-xvfb-dbgsym
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 3534
+Depends: xserver-xlibre-xvfb (= 2:25.0.0.9-3)
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xvfb-dbgsym_25.0.0.9-3_arm64.deb
+Size: 3328576
+MD5sum: 39abf180ad33067f7bcef152d0fb35eb
+SHA1: a1c8b1261b714032d63dcbeb9681c1b095b9f3b7
+SHA256: 19b9d33a8c36227470c225b30c5f5ff29e82f2b0c035eaf0c6d17708a2f0d950
+SHA512: 96f79ba298daa08f7dd806987b5ef4a98cf6fbdb40e511ace36a153c82264723ed2100f673149b84acf86ba58036df47615872a431632b5ec229582b0f778368
 Description: debug symbols for xserver-xlibre-xvfb
 Build-Ids: 9ba7dd66085d105acec84027cddfdff047b30561
 
@@ -2766,6 +3065,47 @@ MD5sum: 12ad014f6c6ffbf1e8514b30e3ad4ca1
 SHA1: ceb714b3d4b14327f73c55c044a832d3c44c5b87
 SHA256: 68eebc254c54a3d8afc08877008d95ffb2ebd5e6c179c118bd6397670b5709b7
 SHA512: 8b101af6475317ad0b36f05ee46a5c840ada61700f3b9b4597b428a36e78cb509746a5339e3d7016ef23718ad84e9b9407a93a5b4fa33ddb33d7f1b2d03c51e8
+Homepage: https://github.com/X11Libre
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about XLibre can be found at:
+ <URL:https://github.com/X11Libre/xserver>
+ .
+ This package is built from the XLibre xserver module.
+
+Package: xserver-xlibre-xvfb
+Architecture: arm64
+Version: 2:25.0.0.9-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2327
+Provides: xserver, xvfb (= 2:25.0.0.9-3)
+Depends: xserver-xlibre-common (>= 2:25.0.0.9-3), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.35), libgl1, libnettle8, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.9), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Conflicts: xvfb
+Filename: dists/bookworm/pool/main/arm64/xserver-xlibre-xvfb_25.0.0.9-3_arm64.deb
+Size: 743528
+MD5sum: c3c746396b706d2c4450a763bf3f8167
+SHA1: dbb7b18a75fec43840267b39d0f72b52b262061b
+SHA256: 2968a279b29b2e84b482ec7c4fca6c0bafd4aae16a9b2edf7c73ede9aff14b7c
+SHA512: b665b5c90a947e9e256eb1026cca8d61fb7dcf9c00985ddb727707bddfb88dd2c8f2a1b1d45856b139873626f55b6d35609f6d1e5255796068d116528a0c2679
 Homepage: https://github.com/X11Libre
 Description: Virtual Framebuffer 'fake' X server
  Xvfb provides an X server that can run on machines with no display hardware
