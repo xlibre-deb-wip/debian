@@ -777,23 +777,6 @@ Description: X Window System utility programs metapackage
  programs formerly in xutils and xbase-clients having been split out in smaller
  packages.
 
-Package: xorg-input-abi-24-dummy
-Architecture: all
-Version: 0.1.0+1
-Priority: optional
-Section: x11
-Source: xorg-abi-dummy
-Maintainer: apebl <a@pebl.cc>
-Installed-Size: 9
-Provides: xorg-input-abi-24
-Filename: dists/forky/pool/main/all/xorg-input-abi-24-dummy_0.1.0+1_all.deb
-Size: 1764
-MD5sum: 18ccd3e82e7e506f702f81901c1d10e1
-SHA1: 21f7c2269a586db76fb496c42821064ffb6b3438
-SHA256: ad181f91478fa6e827413f9e93bb9fe874c00fb9dadce8caea02978eb213d56e
-SHA512: 089006b7a70618d2855bf2984bb002bbbbf4a7c3fe48ea3b5238beebcda6e8402636da083e76078471f8991bd3532c31a26fdce32a2baffd24d78086021e37d1
-Description: Dummy package for xorg-input-abi-24
-
 Package: xorg-video-abi-25-dummy
 Architecture: all
 Version: 0.1.0+1
@@ -809,6 +792,23 @@ MD5sum: 8724cbbab234c68ebde6ff36ae3f4dde
 SHA1: a43492cbb21a0a2c3878f00e7fef1a840e3d7324
 SHA256: 82b90311b07a8107d3064fd642a219215b4f4eba94d7cea7dba893d8b34fc8a3
 SHA512: e616569e8d17ffbf106d3aa60fb07620cf9250e2a4d6e609001ed62646594941872b37b21596ec6cc66ccbde85ff2c5699e45867cb7cb4f5d59b8cdb44f385ac
+Description: Dummy package for xorg-video-abi-25
+
+Package: xorg-video-abi-25-dummy
+Architecture: all
+Version: 0.1.0+2
+Priority: optional
+Section: x11
+Source: xorg-abi-dummy
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 9
+Provides: xorg-video-abi-25
+Filename: dists/forky/pool/main/all/xorg-video-abi-25-dummy_0.1.0+2_all.deb
+Size: 1820
+MD5sum: cf7479ab51fed56991f3cb91145d1ec7
+SHA1: 2beac94080072b1f12e39056dd8414d1f6b10230
+SHA256: 400c3ca27b131aba93f23bce8dc746fe79369e7cfca27e2a6b7c67c6a410ee1e
+SHA512: 4bc98dd76af5b66ce4d7700b1a4b2e0f4ba6180dd0c5b9f0b911162d7b1007322d3b2d5676c454193f01378fed1403430c58365955001a7ffd91f5566345c546
 Description: Dummy package for xorg-video-abi-25
 
 Package: xserver-xlibre-common
