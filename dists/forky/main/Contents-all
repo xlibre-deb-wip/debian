@@ -224,8 +224,6 @@ usr/share/doc/xlibre-xbase-clients/changelog.gz		    xlibre-xbase-clients
 usr/share/doc/xlibre-xbase-clients/copyright		    xlibre-xbase-clients
 usr/share/doc/xlibre-xutils/changelog.gz		    xlibre-xutils
 usr/share/doc/xlibre-xutils/copyright			    xlibre-xutils
-usr/share/doc/xorg-input-abi-24-dummy/changelog.gz	    xorg-input-abi-24-dummy
-usr/share/doc/xorg-input-abi-24-dummy/copyright		    xorg-input-abi-24-dummy
 usr/share/doc/xorg-video-abi-25-dummy/changelog.gz	    xorg-video-abi-25-dummy
 usr/share/doc/xorg-video-abi-25-dummy/copyright		    xorg-video-abi-25-dummy
 usr/share/doc/xproto/x11protocol.txt.gz			    x11proto-dev
