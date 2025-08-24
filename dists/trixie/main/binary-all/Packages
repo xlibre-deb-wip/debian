@@ -570,6 +570,33 @@ Description: XLibre X server - source files
  Unless you are building a software product using X server sources,
  you probably want xserver-xlibre and/or xserver-xlibre-core instead.
 
+Package: xlibre-server-source
+Architecture: all
+Version: 2:25.0.0.9-3
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 2935
+Provides: xorg-server-source (= 2:25.0.0.9-3)
+Conflicts: xorg-server-source
+Filename: dists/trixie/pool/main/all/xlibre-server-source_25.0.0.9-3_all.deb
+Size: 2912528
+MD5sum: c3bf031c8521dc70c7cee7b73553a100
+SHA1: 78d4478b8b6aa720a441ffe97026e7d7059901f3
+SHA256: a66fa8da58f9111d5964979eb6df1a81e58898906f7f1f1c30a53bfdcd22438f
+SHA512: cd3afc8ccd3cabde8e0379ce2d5b06876d1ab6d1b502eeaf0efa16a29c3ff2ae28fdd5799f7c3e843663ee426953beed3ce787f5f69ecae41ceb764cf060dac5
+Homepage: https://github.com/X11Libre
+Description: XLibre X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the XLibre ('XLibre')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xlibre and/or xserver-xlibre-core instead.
+
 Package: xlibre-x11-common
 Architecture: all
 Version: 1:7.8+2
@@ -900,6 +927,30 @@ MD5sum: e047f5406737967d1909ac9a77771fa3
 SHA1: f48727d562effdff1f2b31253b4bbb81febca587
 SHA256: 8d224d1d088131fe54def869f6303712fcc2fddd6de09ca234f531928afadb55
 SHA512: 957da2697a04cd5e4707863b1efe79cc5727f25e6f84f90f13ced44b0196d87b31975cb2719279318b842b8d5b2e9592f19d48c875361f859f6408b78052b743
+Homepage: https://github.com/X11Libre
+Description: common files used by various X servers
+ This package provides files necessary for all XLibre based X servers.
+
+Package: xserver-xlibre-common
+Architecture: all
+Version: 2:25.0.0.9-3
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Source: xlibre-server
+Maintainer: apebl <a@pebl.cc>
+Installed-Size: 138
+Provides: xserver-common (= 2:25.0.0.9-3)
+Depends: xlibre-x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Conflicts: xserver-common
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Filename: dists/trixie/pool/main/all/xserver-xlibre-common_25.0.0.9-3_all.deb
+Size: 25116
+MD5sum: 88ca27372c4c6d17339088c736e57cda
+SHA1: c5ebd9d61906b02e7c2b659fddfdd4e61b44f19b
+SHA256: 37209525d04c9ce6f740ab1912f50f114691b31800fbc66708f90e1c2caf271e
+SHA512: eac13a703ea4e73ffbc6f720aeabe843e125cce764810843f7b0c0cb5c8a4fad46dbbc26818f50148216703b83d0bcd6ba811de58c1ee611d22fc49e17a0aa5e
 Homepage: https://github.com/X11Libre
 Description: common files used by various X servers
  This package provides files necessary for all XLibre based X servers.

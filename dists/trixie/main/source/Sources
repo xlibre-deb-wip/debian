@@ -208,6 +208,48 @@ Checksums-Sha512:
  be68ce6659caf1d81824ac35936d04c82da81ced2a98febab269a8b5202d939ab3cacbe9026973a34a73918941ab2367acb6c8b07b283771868db31d7a580127 5409605 xlibre-server_25.0.0.9.orig.tar.gz
  ac92f329194e790d72302d27f81de272753509f78ded15355fa062270976c06c3ff361d43773bb980a79edcda29e4433a8318b80d430e6e7e1b24474315815fe 92356 xlibre-server_25.0.0.9-2.debian.tar.xz
 
+Package: xlibre-server
+Format: 3.0 (quilt)
+Binary: xserver-xlibre-core, xserver-xlibre-core-udeb, xserver-xlibre-dev, xserver-xlibre-xnest, xserver-xlibre-xvfb, xserver-xlibre-xephyr, xserver-xlibre-common, xlibre-server-source, xserver-xlibre-legacy
+Architecture: any all
+Version: 2:25.0.0.9-3
+Maintainer: apebl <a@pebl.cc>
+Standards-Version: 3.9.8
+Build-Depends: debhelper-compat (= 12), po-debconf, quilt, pkgconf, bison, flex, xutils-dev (>= 1:7.6+4), xfonts-utils (>= 1:7.5+1), x11proto-dev (>= 2024.1), xtrans-dev (>= 1.3.5), libxau-dev (>= 1:1.0.5-2), libxcvt-dev, libxdmcp-dev (>= 1:0.99.1), libxfont-dev (>= 1:2.0.1), libxkbfile-dev (>= 1:0.99.1), libpixman-1-dev (>= 0.27.2), libpciaccess-dev (>= 0.12.901), nettle-dev, libudev-dev (>= 151-3) [linux-any], libselinux1-dev (>= 2.0.80) [linux-any], libaudit-dev [linux-any], libdrm-dev (>= 2.4.107-5~) [!hurd-any], libglvnd-dev, mesa-common-dev, libunwind-dev [amd64 arm64 armel hppa i386 ia64 mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el sh4], libxmuu-dev (>= 1:0.99.1), libxext-dev (>= 1:0.99.1), libx11-dev (>= 2:1.6), libxrender-dev (>= 1:0.9.0), libxi-dev (>= 2:1.8), libxpm-dev (>= 1:3.5.3), libxaw7-dev (>= 1:0.99.1), libxt-dev (>= 1:0.99.1), libxmu-dev (>= 1:0.99.1), libxtst-dev (>= 1:0.99.1), libxres-dev (>= 1:0.99.1), libxfixes-dev (>= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (>= 1.1) [!hurd-any], libepoxy-dev [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (>= 10.2) [linux-any kfreebsd-any], libx11-xcb-dev, libxcb1-dev, libxcb-xkb-dev, libxcb-shape0-dev, libxcb-render0-dev, libxcb-render-util0-dev, libxcb-util-dev, libxcb-image0-dev, libxcb-icccm4-dev, libxcb-shm0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-xv0-dev, libxcb-glx0-dev, libxcb-xf86dri0-dev (>= 1.6), xauth <!nocheck>, xkb-data, x11-utils <!nocheck>, x11-xkb-utils, libbsd-dev, libdbus-1-dev (>= 1.0) [linux-any] <!nosystemd>, libsystemd-dev [linux-any] <!nosystemd>, systemd-dev [linux-any] <!nosystemd>, meson
+Build-Depends-Indep: xz-utils
+Testsuite: autopkgtest
+Testsuite-Triggers: x11-utils, xauth, xvfb
+Homepage: https://github.com/X11Libre
+Vcs-Browser: https://github.com/xlibre-deb/xlibre-server
+Vcs-Git: https://github.com/xlibre-deb/xlibre-server.git
+Directory: dists/trixie/pool/main/source
+Package-List:
+ xlibre-server-source deb x11 optional arch=all
+ xserver-xlibre-common deb x11 optional arch=all
+ xserver-xlibre-core deb x11 optional arch=any
+ xserver-xlibre-core-udeb udeb debian-installer optional arch=any
+ xserver-xlibre-dev deb x11 optional arch=any
+ xserver-xlibre-legacy deb x11 optional arch=any
+ xserver-xlibre-xephyr deb x11 optional arch=any
+ xserver-xlibre-xnest deb x11 optional arch=any
+ xserver-xlibre-xvfb deb x11 optional arch=any
+Files:
+ 92fd594066465c44faa1f47d86a3368e 3595 xlibre-server_25.0.0.9-3.dsc
+ 40a01c589507e39cff5d530ed09322f0 5409605 xlibre-server_25.0.0.9.orig.tar.gz
+ 2c0922c1c7c0d6951d70b8b25eaba283 92392 xlibre-server_25.0.0.9-3.debian.tar.xz
+Checksums-Sha1:
+ 419560a5e33d35bde9baeadfd8a0a35ed93568fa 3595 xlibre-server_25.0.0.9-3.dsc
+ b4eb96f9745d9221e7a7fe3b19e20f20f61c8b92 5409605 xlibre-server_25.0.0.9.orig.tar.gz
+ 00b6043c2ad23840527f821541f7aaaec36f50fc 92392 xlibre-server_25.0.0.9-3.debian.tar.xz
+Checksums-Sha256:
+ f3edad98f7d32c0f591194950ff68f44921c6067817274e87d132c98eebe5bba 3595 xlibre-server_25.0.0.9-3.dsc
+ e122a65c030e18057bc1885cc7ed14f9974ae0bcbbc409db35eceba8dcaa28c3 5409605 xlibre-server_25.0.0.9.orig.tar.gz
+ 56f023a191401ad19b1b33a896a1cb21e9c7d76b7b517d5bbc7f53e96d755943 92392 xlibre-server_25.0.0.9-3.debian.tar.xz
+Checksums-Sha512:
+ 1c27f2f278e5b752c22ce0df24a17b2f14a70e077a3fb61d830e61862f3283db5610356d3072122bc252955dcbc4cf934e380b01d301cad863716644fe2e5131 3595 xlibre-server_25.0.0.9-3.dsc
+ be68ce6659caf1d81824ac35936d04c82da81ced2a98febab269a8b5202d939ab3cacbe9026973a34a73918941ab2367acb6c8b07b283771868db31d7a580127 5409605 xlibre-server_25.0.0.9.orig.tar.gz
+ a02b2688410baee8f9caade86091eaac75129ffa2d68846f98065b8891a9ff97141e80c4d21ff1efee9eddd74a192e7a4fbfc12199e0b1d84b01ff030b2a7a19 92392 xlibre-server_25.0.0.9-3.debian.tar.xz
+
 Package: xorgproto
 Format: 3.0 (quilt)
 Binary: x11proto-dev, x11proto-core-dev, x11proto-dri2-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-present-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xext-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev
